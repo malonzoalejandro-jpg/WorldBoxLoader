@@ -15,6 +15,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Folder
 import androidx.compose.material.icons.filled.Home
+import androidx.compose.material.icons.filled.Public
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
@@ -111,7 +112,7 @@ private fun LoaderApp(
     ) {
         Scaffold(containerColor = bg, bottomBar = {
             NavigationBar(containerColor = panel) {
-                listOf("Home", "Mods", "Setup").forEach { item ->
+                listOf("Home", "Browse", "Mods", "Setup").forEach { item ->
                     NavigationBarItem(
                         selected = page == item,
                         onClick = { page = item },
@@ -120,6 +121,7 @@ private fun LoaderApp(
                                 when (item) {
                                     "Home" -> Icons.Default.Home
                                     "Mods" -> Icons.Default.Folder
+                                    "Browse" -> Icons.Default.Public
                                     else -> Icons.Default.Settings
                                 }, contentDescription = item
                             )
@@ -161,6 +163,9 @@ private fun LoaderApp(
                         Spacer(Modifier.height(14.dp))
                         Text("Library overview", fontWeight = FontWeight.Bold, fontSize = 18.sp)
                         Text("${mods.size} imported item(s)", color = Color.LightGray)
+                    }
+                    "Browse" -> {
+                        GameBananaBrowserScreen(onImportDownloaded = { picker.launch(arrayOf("*/*")) })
                     }
                     "Mods" -> {
                         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.SpaceBetween, modifier = Modifier.fillMaxWidth()) {
