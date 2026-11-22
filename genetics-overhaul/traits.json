@@ -1,0 +1,6010 @@
+{
+  "schemaVersion": 1,
+  "gameTarget": "WorldBox Android 0.51.4 (IL2CPP)",
+  "count": 500,
+  "traits": [
+    {
+      "id": "trait_001",
+      "name": "Titan frame 01",
+      "category": "Physical",
+      "rarity": "common",
+      "description": "A physical trait affecting frame and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_002",
+      "name": "Titan muscle 02",
+      "category": "Physical",
+      "rarity": "uncommon",
+      "description": "A physical trait affecting muscle and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_003",
+      "name": "Titan bone 03",
+      "category": "Physical",
+      "rarity": "rare",
+      "description": "A physical trait affecting bone and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_004",
+      "name": "Titan skin 04",
+      "category": "Physical",
+      "rarity": "epic",
+      "description": "A physical trait affecting skin and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_005",
+      "name": "Titan reflex 05",
+      "category": "Physical",
+      "rarity": "legendary",
+      "description": "A physical trait affecting reflex and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_006",
+      "name": "Granite stride 06",
+      "category": "Physical",
+      "rarity": "common",
+      "description": "A physical trait affecting stride and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_007",
+      "name": "Granite grip 07",
+      "category": "Physical",
+      "rarity": "uncommon",
+      "description": "A physical trait affecting grip and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_008",
+      "name": "Granite lung 08",
+      "category": "Physical",
+      "rarity": "rare",
+      "description": "A physical trait affecting lung and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_009",
+      "name": "Granite heart 09",
+      "category": "Physical",
+      "rarity": "epic",
+      "description": "A physical trait affecting heart and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_010",
+      "name": "Granite sinew 10",
+      "category": "Physical",
+      "rarity": "legendary",
+      "description": "A physical trait affecting sinew and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_011",
+      "name": "Swift frame 11",
+      "category": "Physical",
+      "rarity": "common",
+      "description": "A physical trait affecting frame and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_012",
+      "name": "Swift muscle 12",
+      "category": "Physical",
+      "rarity": "uncommon",
+      "description": "A physical trait affecting muscle and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_013",
+      "name": "Swift bone 13",
+      "category": "Physical",
+      "rarity": "rare",
+      "description": "A physical trait affecting bone and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_014",
+      "name": "Swift skin 14",
+      "category": "Physical",
+      "rarity": "epic",
+      "description": "A physical trait affecting skin and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_015",
+      "name": "Swift reflex 15",
+      "category": "Physical",
+      "rarity": "legendary",
+      "description": "A physical trait affecting reflex and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_016",
+      "name": "Feather stride 16",
+      "category": "Physical",
+      "rarity": "common",
+      "description": "A physical trait affecting stride and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_017",
+      "name": "Feather grip 17",
+      "category": "Physical",
+      "rarity": "uncommon",
+      "description": "A physical trait affecting grip and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_018",
+      "name": "Feather lung 18",
+      "category": "Physical",
+      "rarity": "rare",
+      "description": "A physical trait affecting lung and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_019",
+      "name": "Feather heart 19",
+      "category": "Physical",
+      "rarity": "epic",
+      "description": "A physical trait affecting heart and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_020",
+      "name": "Feather sinew 20",
+      "category": "Physical",
+      "rarity": "legendary",
+      "description": "A physical trait affecting sinew and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_021",
+      "name": "Iron frame 21",
+      "category": "Physical",
+      "rarity": "common",
+      "description": "A physical trait affecting frame and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_022",
+      "name": "Iron muscle 22",
+      "category": "Physical",
+      "rarity": "uncommon",
+      "description": "A physical trait affecting muscle and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_023",
+      "name": "Iron bone 23",
+      "category": "Physical",
+      "rarity": "rare",
+      "description": "A physical trait affecting bone and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_024",
+      "name": "Iron skin 24",
+      "category": "Physical",
+      "rarity": "epic",
+      "description": "A physical trait affecting skin and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_025",
+      "name": "Iron reflex 25",
+      "category": "Physical",
+      "rarity": "legendary",
+      "description": "A physical trait affecting reflex and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_026",
+      "name": "Elastic stride 26",
+      "category": "Physical",
+      "rarity": "common",
+      "description": "A physical trait affecting stride and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_027",
+      "name": "Elastic grip 27",
+      "category": "Physical",
+      "rarity": "uncommon",
+      "description": "A physical trait affecting grip and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_028",
+      "name": "Elastic lung 28",
+      "category": "Physical",
+      "rarity": "rare",
+      "description": "A physical trait affecting lung and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_029",
+      "name": "Elastic heart 29",
+      "category": "Physical",
+      "rarity": "epic",
+      "description": "A physical trait affecting heart and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_030",
+      "name": "Elastic sinew 30",
+      "category": "Physical",
+      "rarity": "legendary",
+      "description": "A physical trait affecting sinew and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_031",
+      "name": "Dense frame 31",
+      "category": "Physical",
+      "rarity": "common",
+      "description": "A physical trait affecting frame and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_032",
+      "name": "Dense muscle 32",
+      "category": "Physical",
+      "rarity": "uncommon",
+      "description": "A physical trait affecting muscle and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_033",
+      "name": "Dense bone 33",
+      "category": "Physical",
+      "rarity": "rare",
+      "description": "A physical trait affecting bone and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_034",
+      "name": "Dense skin 34",
+      "category": "Physical",
+      "rarity": "epic",
+      "description": "A physical trait affecting skin and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_035",
+      "name": "Dense reflex 35",
+      "category": "Physical",
+      "rarity": "legendary",
+      "description": "A physical trait affecting reflex and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_036",
+      "name": "Lithe stride 36",
+      "category": "Physical",
+      "rarity": "common",
+      "description": "A physical trait affecting stride and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_037",
+      "name": "Lithe grip 37",
+      "category": "Physical",
+      "rarity": "uncommon",
+      "description": "A physical trait affecting grip and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_038",
+      "name": "Lithe lung 38",
+      "category": "Physical",
+      "rarity": "rare",
+      "description": "A physical trait affecting lung and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_039",
+      "name": "Lithe heart 39",
+      "category": "Physical",
+      "rarity": "epic",
+      "description": "A physical trait affecting heart and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_040",
+      "name": "Lithe sinew 40",
+      "category": "Physical",
+      "rarity": "legendary",
+      "description": "A physical trait affecting sinew and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_041",
+      "name": "Colossal frame 41",
+      "category": "Physical",
+      "rarity": "common",
+      "description": "A physical trait affecting frame and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_042",
+      "name": "Colossal muscle 42",
+      "category": "Physical",
+      "rarity": "uncommon",
+      "description": "A physical trait affecting muscle and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_043",
+      "name": "Colossal bone 43",
+      "category": "Physical",
+      "rarity": "rare",
+      "description": "A physical trait affecting bone and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_044",
+      "name": "Colossal skin 44",
+      "category": "Physical",
+      "rarity": "epic",
+      "description": "A physical trait affecting skin and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_045",
+      "name": "Colossal reflex 45",
+      "category": "Physical",
+      "rarity": "legendary",
+      "description": "A physical trait affecting reflex and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_046",
+      "name": "Agile stride 46",
+      "category": "Physical",
+      "rarity": "common",
+      "description": "A physical trait affecting stride and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_047",
+      "name": "Agile grip 47",
+      "category": "Physical",
+      "rarity": "uncommon",
+      "description": "A physical trait affecting grip and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_048",
+      "name": "Agile lung 48",
+      "category": "Physical",
+      "rarity": "rare",
+      "description": "A physical trait affecting lung and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_049",
+      "name": "Agile heart 49",
+      "category": "Physical",
+      "rarity": "epic",
+      "description": "A physical trait affecting heart and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_050",
+      "name": "Agile sinew 50",
+      "category": "Physical",
+      "rarity": "legendary",
+      "description": "A physical trait affecting sinew and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_051",
+      "name": "Ember affinity 01",
+      "category": "Elemental",
+      "rarity": "common",
+      "description": "A elemental trait affecting affinity and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_052",
+      "name": "Ember core 02",
+      "category": "Elemental",
+      "rarity": "uncommon",
+      "description": "A elemental trait affecting core and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_053",
+      "name": "Ember vein 03",
+      "category": "Elemental",
+      "rarity": "rare",
+      "description": "A elemental trait affecting vein and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_054",
+      "name": "Ember aura 04",
+      "category": "Elemental",
+      "rarity": "epic",
+      "description": "A elemental trait affecting aura and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_055",
+      "name": "Ember pulse 05",
+      "category": "Elemental",
+      "rarity": "legendary",
+      "description": "A elemental trait affecting pulse and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_056",
+      "name": "Frost shell 06",
+      "category": "Elemental",
+      "rarity": "common",
+      "description": "A elemental trait affecting shell and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_057",
+      "name": "Frost breath 07",
+      "category": "Elemental",
+      "rarity": "uncommon",
+      "description": "A elemental trait affecting breath and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_058",
+      "name": "Frost spark 08",
+      "category": "Elemental",
+      "rarity": "rare",
+      "description": "A elemental trait affecting spark and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_059",
+      "name": "Frost ward 09",
+      "category": "Elemental",
+      "rarity": "epic",
+      "description": "A elemental trait affecting ward and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_060",
+      "name": "Frost heart 10",
+      "category": "Elemental",
+      "rarity": "legendary",
+      "description": "A elemental trait affecting heart and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_061",
+      "name": "Storm affinity 11",
+      "category": "Elemental",
+      "rarity": "common",
+      "description": "A elemental trait affecting affinity and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_062",
+      "name": "Storm core 12",
+      "category": "Elemental",
+      "rarity": "uncommon",
+      "description": "A elemental trait affecting core and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_063",
+      "name": "Storm vein 13",
+      "category": "Elemental",
+      "rarity": "rare",
+      "description": "A elemental trait affecting vein and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_064",
+      "name": "Storm aura 14",
+      "category": "Elemental",
+      "rarity": "epic",
+      "description": "A elemental trait affecting aura and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_065",
+      "name": "Storm pulse 15",
+      "category": "Elemental",
+      "rarity": "legendary",
+      "description": "A elemental trait affecting pulse and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_066",
+      "name": "Tide shell 16",
+      "category": "Elemental",
+      "rarity": "common",
+      "description": "A elemental trait affecting shell and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_067",
+      "name": "Tide breath 17",
+      "category": "Elemental",
+      "rarity": "uncommon",
+      "description": "A elemental trait affecting breath and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_068",
+      "name": "Tide spark 18",
+      "category": "Elemental",
+      "rarity": "rare",
+      "description": "A elemental trait affecting spark and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_069",
+      "name": "Tide ward 19",
+      "category": "Elemental",
+      "rarity": "epic",
+      "description": "A elemental trait affecting ward and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_070",
+      "name": "Tide heart 20",
+      "category": "Elemental",
+      "rarity": "legendary",
+      "description": "A elemental trait affecting heart and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_071",
+      "name": "Magma affinity 21",
+      "category": "Elemental",
+      "rarity": "common",
+      "description": "A elemental trait affecting affinity and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_072",
+      "name": "Magma core 22",
+      "category": "Elemental",
+      "rarity": "uncommon",
+      "description": "A elemental trait affecting core and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_073",
+      "name": "Magma vein 23",
+      "category": "Elemental",
+      "rarity": "rare",
+      "description": "A elemental trait affecting vein and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_074",
+      "name": "Magma aura 24",
+      "category": "Elemental",
+      "rarity": "epic",
+      "description": "A elemental trait affecting aura and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_075",
+      "name": "Magma pulse 25",
+      "category": "Elemental",
+      "rarity": "legendary",
+      "description": "A elemental trait affecting pulse and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_076",
+      "name": "Gale shell 26",
+      "category": "Elemental",
+      "rarity": "common",
+      "description": "A elemental trait affecting shell and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_077",
+      "name": "Gale breath 27",
+      "category": "Elemental",
+      "rarity": "uncommon",
+      "description": "A elemental trait affecting breath and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_078",
+      "name": "Gale spark 28",
+      "category": "Elemental",
+      "rarity": "rare",
+      "description": "A elemental trait affecting spark and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_079",
+      "name": "Gale ward 29",
+      "category": "Elemental",
+      "rarity": "epic",
+      "description": "A elemental trait affecting ward and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_080",
+      "name": "Gale heart 30",
+      "category": "Elemental",
+      "rarity": "legendary",
+      "description": "A elemental trait affecting heart and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_081",
+      "name": "Volt affinity 31",
+      "category": "Elemental",
+      "rarity": "common",
+      "description": "A elemental trait affecting affinity and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_082",
+      "name": "Volt core 32",
+      "category": "Elemental",
+      "rarity": "uncommon",
+      "description": "A elemental trait affecting core and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_083",
+      "name": "Volt vein 33",
+      "category": "Elemental",
+      "rarity": "rare",
+      "description": "A elemental trait affecting vein and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_084",
+      "name": "Volt aura 34",
+      "category": "Elemental",
+      "rarity": "epic",
+      "description": "A elemental trait affecting aura and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_085",
+      "name": "Volt pulse 35",
+      "category": "Elemental",
+      "rarity": "legendary",
+      "description": "A elemental trait affecting pulse and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_086",
+      "name": "Ash shell 36",
+      "category": "Elemental",
+      "rarity": "common",
+      "description": "A elemental trait affecting shell and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_087",
+      "name": "Ash breath 37",
+      "category": "Elemental",
+      "rarity": "uncommon",
+      "description": "A elemental trait affecting breath and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_088",
+      "name": "Ash spark 38",
+      "category": "Elemental",
+      "rarity": "rare",
+      "description": "A elemental trait affecting spark and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_089",
+      "name": "Ash ward 39",
+      "category": "Elemental",
+      "rarity": "epic",
+      "description": "A elemental trait affecting ward and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_090",
+      "name": "Ash heart 40",
+      "category": "Elemental",
+      "rarity": "legendary",
+      "description": "A elemental trait affecting heart and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_091",
+      "name": "Crystal affinity 41",
+      "category": "Elemental",
+      "rarity": "common",
+      "description": "A elemental trait affecting affinity and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_092",
+      "name": "Crystal core 42",
+      "category": "Elemental",
+      "rarity": "uncommon",
+      "description": "A elemental trait affecting core and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_093",
+      "name": "Crystal vein 43",
+      "category": "Elemental",
+      "rarity": "rare",
+      "description": "A elemental trait affecting vein and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_094",
+      "name": "Crystal aura 44",
+      "category": "Elemental",
+      "rarity": "epic",
+      "description": "A elemental trait affecting aura and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_095",
+      "name": "Crystal pulse 45",
+      "category": "Elemental",
+      "rarity": "legendary",
+      "description": "A elemental trait affecting pulse and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_096",
+      "name": "Solar shell 46",
+      "category": "Elemental",
+      "rarity": "common",
+      "description": "A elemental trait affecting shell and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_097",
+      "name": "Solar breath 47",
+      "category": "Elemental",
+      "rarity": "uncommon",
+      "description": "A elemental trait affecting breath and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_098",
+      "name": "Solar spark 48",
+      "category": "Elemental",
+      "rarity": "rare",
+      "description": "A elemental trait affecting spark and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_099",
+      "name": "Solar ward 49",
+      "category": "Elemental",
+      "rarity": "epic",
+      "description": "A elemental trait affecting ward and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_100",
+      "name": "Solar heart 50",
+      "category": "Elemental",
+      "rarity": "legendary",
+      "description": "A elemental trait affecting heart and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_101",
+      "name": "Astral channel 01",
+      "category": "Arcane",
+      "rarity": "common",
+      "description": "A arcane trait affecting channel and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_102",
+      "name": "Astral sigil 02",
+      "category": "Arcane",
+      "rarity": "uncommon",
+      "description": "A arcane trait affecting sigil and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_103",
+      "name": "Astral mind 03",
+      "category": "Arcane",
+      "rarity": "rare",
+      "description": "A arcane trait affecting mind and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_104",
+      "name": "Astral soul 04",
+      "category": "Arcane",
+      "rarity": "epic",
+      "description": "A arcane trait affecting soul and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_105",
+      "name": "Astral reservoir 05",
+      "category": "Arcane",
+      "rarity": "legendary",
+      "description": "A arcane trait affecting reservoir and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_106",
+      "name": "Runic sense 06",
+      "category": "Arcane",
+      "rarity": "common",
+      "description": "A arcane trait affecting sense and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_107",
+      "name": "Runic weave 07",
+      "category": "Arcane",
+      "rarity": "uncommon",
+      "description": "A arcane trait affecting weave and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_108",
+      "name": "Runic focus 08",
+      "category": "Arcane",
+      "rarity": "rare",
+      "description": "A arcane trait affecting focus and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_109",
+      "name": "Runic echo 09",
+      "category": "Arcane",
+      "rarity": "epic",
+      "description": "A arcane trait affecting echo and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_110",
+      "name": "Runic mark 10",
+      "category": "Arcane",
+      "rarity": "legendary",
+      "description": "A arcane trait affecting mark and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_111",
+      "name": "Void channel 11",
+      "category": "Arcane",
+      "rarity": "common",
+      "description": "A arcane trait affecting channel and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_112",
+      "name": "Void sigil 12",
+      "category": "Arcane",
+      "rarity": "uncommon",
+      "description": "A arcane trait affecting sigil and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_113",
+      "name": "Void mind 13",
+      "category": "Arcane",
+      "rarity": "rare",
+      "description": "A arcane trait affecting mind and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_114",
+      "name": "Void soul 14",
+      "category": "Arcane",
+      "rarity": "epic",
+      "description": "A arcane trait affecting soul and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_115",
+      "name": "Void reservoir 15",
+      "category": "Arcane",
+      "rarity": "legendary",
+      "description": "A arcane trait affecting reservoir and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_116",
+      "name": "Lunar sense 16",
+      "category": "Arcane",
+      "rarity": "common",
+      "description": "A arcane trait affecting sense and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_117",
+      "name": "Lunar weave 17",
+      "category": "Arcane",
+      "rarity": "uncommon",
+      "description": "A arcane trait affecting weave and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_118",
+      "name": "Lunar focus 18",
+      "category": "Arcane",
+      "rarity": "rare",
+      "description": "A arcane trait affecting focus and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_119",
+      "name": "Lunar echo 19",
+      "category": "Arcane",
+      "rarity": "epic",
+      "description": "A arcane trait affecting echo and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_120",
+      "name": "Lunar mark 20",
+      "category": "Arcane",
+      "rarity": "legendary",
+      "description": "A arcane trait affecting mark and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_121",
+      "name": "Celestial channel 21",
+      "category": "Arcane",
+      "rarity": "common",
+      "description": "A arcane trait affecting channel and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_122",
+      "name": "Celestial sigil 22",
+      "category": "Arcane",
+      "rarity": "uncommon",
+      "description": "A arcane trait affecting sigil and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_123",
+      "name": "Celestial mind 23",
+      "category": "Arcane",
+      "rarity": "rare",
+      "description": "A arcane trait affecting mind and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_124",
+      "name": "Celestial soul 24",
+      "category": "Arcane",
+      "rarity": "epic",
+      "description": "A arcane trait affecting soul and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_125",
+      "name": "Celestial reservoir 25",
+      "category": "Arcane",
+      "rarity": "legendary",
+      "description": "A arcane trait affecting reservoir and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_126",
+      "name": "Ethereal sense 26",
+      "category": "Arcane",
+      "rarity": "common",
+      "description": "A arcane trait affecting sense and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_127",
+      "name": "Ethereal weave 27",
+      "category": "Arcane",
+      "rarity": "uncommon",
+      "description": "A arcane trait affecting weave and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_128",
+      "name": "Ethereal focus 28",
+      "category": "Arcane",
+      "rarity": "rare",
+      "description": "A arcane trait affecting focus and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_129",
+      "name": "Ethereal echo 29",
+      "category": "Arcane",
+      "rarity": "epic",
+      "description": "A arcane trait affecting echo and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_130",
+      "name": "Ethereal mark 30",
+      "category": "Arcane",
+      "rarity": "legendary",
+      "description": "A arcane trait affecting mark and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_131",
+      "name": "Mystic channel 31",
+      "category": "Arcane",
+      "rarity": "common",
+      "description": "A arcane trait affecting channel and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_132",
+      "name": "Mystic sigil 32",
+      "category": "Arcane",
+      "rarity": "uncommon",
+      "description": "A arcane trait affecting sigil and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_133",
+      "name": "Mystic mind 33",
+      "category": "Arcane",
+      "rarity": "rare",
+      "description": "A arcane trait affecting mind and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_134",
+      "name": "Mystic soul 34",
+      "category": "Arcane",
+      "rarity": "epic",
+      "description": "A arcane trait affecting soul and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_135",
+      "name": "Mystic reservoir 35",
+      "category": "Arcane",
+      "rarity": "legendary",
+      "description": "A arcane trait affecting reservoir and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_136",
+      "name": "Chrono sense 36",
+      "category": "Arcane",
+      "rarity": "common",
+      "description": "A arcane trait affecting sense and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_137",
+      "name": "Chrono weave 37",
+      "category": "Arcane",
+      "rarity": "uncommon",
+      "description": "A arcane trait affecting weave and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_138",
+      "name": "Chrono focus 38",
+      "category": "Arcane",
+      "rarity": "rare",
+      "description": "A arcane trait affecting focus and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_139",
+      "name": "Chrono echo 39",
+      "category": "Arcane",
+      "rarity": "epic",
+      "description": "A arcane trait affecting echo and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_140",
+      "name": "Chrono mark 40",
+      "category": "Arcane",
+      "rarity": "legendary",
+      "description": "A arcane trait affecting mark and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_141",
+      "name": "Dream channel 41",
+      "category": "Arcane",
+      "rarity": "common",
+      "description": "A arcane trait affecting channel and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_142",
+      "name": "Dream sigil 42",
+      "category": "Arcane",
+      "rarity": "uncommon",
+      "description": "A arcane trait affecting sigil and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_143",
+      "name": "Dream mind 43",
+      "category": "Arcane",
+      "rarity": "rare",
+      "description": "A arcane trait affecting mind and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_144",
+      "name": "Dream soul 44",
+      "category": "Arcane",
+      "rarity": "epic",
+      "description": "A arcane trait affecting soul and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_145",
+      "name": "Dream reservoir 45",
+      "category": "Arcane",
+      "rarity": "legendary",
+      "description": "A arcane trait affecting reservoir and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_146",
+      "name": "Aether sense 46",
+      "category": "Arcane",
+      "rarity": "common",
+      "description": "A arcane trait affecting sense and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_147",
+      "name": "Aether weave 47",
+      "category": "Arcane",
+      "rarity": "uncommon",
+      "description": "A arcane trait affecting weave and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_148",
+      "name": "Aether focus 48",
+      "category": "Arcane",
+      "rarity": "rare",
+      "description": "A arcane trait affecting focus and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_149",
+      "name": "Aether echo 49",
+      "category": "Arcane",
+      "rarity": "epic",
+      "description": "A arcane trait affecting echo and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_150",
+      "name": "Aether mark 50",
+      "category": "Arcane",
+      "rarity": "legendary",
+      "description": "A arcane trait affecting mark and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_151",
+      "name": "Berserker instinct 01",
+      "category": "Combat",
+      "rarity": "common",
+      "description": "A combat trait affecting instinct and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_152",
+      "name": "Berserker stance 02",
+      "category": "Combat",
+      "rarity": "uncommon",
+      "description": "A combat trait affecting stance and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_153",
+      "name": "Berserker aim 03",
+      "category": "Combat",
+      "rarity": "rare",
+      "description": "A combat trait affecting aim and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_154",
+      "name": "Berserker guard 04",
+      "category": "Combat",
+      "rarity": "epic",
+      "description": "A combat trait affecting guard and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_155",
+      "name": "Berserker strike 05",
+      "category": "Combat",
+      "rarity": "legendary",
+      "description": "A combat trait affecting strike and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_156",
+      "name": "Sentinel grit 06",
+      "category": "Combat",
+      "rarity": "common",
+      "description": "A combat trait affecting grit and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_157",
+      "name": "Sentinel tempo 07",
+      "category": "Combat",
+      "rarity": "uncommon",
+      "description": "A combat trait affecting tempo and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_158",
+      "name": "Sentinel counter 08",
+      "category": "Combat",
+      "rarity": "rare",
+      "description": "A combat trait affecting counter and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_159",
+      "name": "Sentinel will 09",
+      "category": "Combat",
+      "rarity": "epic",
+      "description": "A combat trait affecting will and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_160",
+      "name": "Sentinel edge 10",
+      "category": "Combat",
+      "rarity": "legendary",
+      "description": "A combat trait affecting edge and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_161",
+      "name": "Duelist instinct 11",
+      "category": "Combat",
+      "rarity": "common",
+      "description": "A combat trait affecting instinct and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_162",
+      "name": "Duelist stance 12",
+      "category": "Combat",
+      "rarity": "uncommon",
+      "description": "A combat trait affecting stance and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_163",
+      "name": "Duelist aim 13",
+      "category": "Combat",
+      "rarity": "rare",
+      "description": "A combat trait affecting aim and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_164",
+      "name": "Duelist guard 14",
+      "category": "Combat",
+      "rarity": "epic",
+      "description": "A combat trait affecting guard and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_165",
+      "name": "Duelist strike 15",
+      "category": "Combat",
+      "rarity": "legendary",
+      "description": "A combat trait affecting strike and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_166",
+      "name": "Predator grit 16",
+      "category": "Combat",
+      "rarity": "common",
+      "description": "A combat trait affecting grit and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_167",
+      "name": "Predator tempo 17",
+      "category": "Combat",
+      "rarity": "uncommon",
+      "description": "A combat trait affecting tempo and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_168",
+      "name": "Predator counter 18",
+      "category": "Combat",
+      "rarity": "rare",
+      "description": "A combat trait affecting counter and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_169",
+      "name": "Predator will 19",
+      "category": "Combat",
+      "rarity": "epic",
+      "description": "A combat trait affecting will and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_170",
+      "name": "Predator edge 20",
+      "category": "Combat",
+      "rarity": "legendary",
+      "description": "A combat trait affecting edge and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_171",
+      "name": "Warden instinct 21",
+      "category": "Combat",
+      "rarity": "common",
+      "description": "A combat trait affecting instinct and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_172",
+      "name": "Warden stance 22",
+      "category": "Combat",
+      "rarity": "uncommon",
+      "description": "A combat trait affecting stance and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_173",
+      "name": "Warden aim 23",
+      "category": "Combat",
+      "rarity": "rare",
+      "description": "A combat trait affecting aim and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_174",
+      "name": "Warden guard 24",
+      "category": "Combat",
+      "rarity": "epic",
+      "description": "A combat trait affecting guard and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_175",
+      "name": "Warden strike 25",
+      "category": "Combat",
+      "rarity": "legendary",
+      "description": "A combat trait affecting strike and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_176",
+      "name": "Raider grit 26",
+      "category": "Combat",
+      "rarity": "common",
+      "description": "A combat trait affecting grit and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_177",
+      "name": "Raider tempo 27",
+      "category": "Combat",
+      "rarity": "uncommon",
+      "description": "A combat trait affecting tempo and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_178",
+      "name": "Raider counter 28",
+      "category": "Combat",
+      "rarity": "rare",
+      "description": "A combat trait affecting counter and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_179",
+      "name": "Raider will 29",
+      "category": "Combat",
+      "rarity": "epic",
+      "description": "A combat trait affecting will and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_180",
+      "name": "Raider edge 30",
+      "category": "Combat",
+      "rarity": "legendary",
+      "description": "A combat trait affecting edge and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_181",
+      "name": "Vanguard instinct 31",
+      "category": "Combat",
+      "rarity": "common",
+      "description": "A combat trait affecting instinct and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_182",
+      "name": "Vanguard stance 32",
+      "category": "Combat",
+      "rarity": "uncommon",
+      "description": "A combat trait affecting stance and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_183",
+      "name": "Vanguard aim 33",
+      "category": "Combat",
+      "rarity": "rare",
+      "description": "A combat trait affecting aim and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_184",
+      "name": "Vanguard guard 34",
+      "category": "Combat",
+      "rarity": "epic",
+      "description": "A combat trait affecting guard and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_185",
+      "name": "Vanguard strike 35",
+      "category": "Combat",
+      "rarity": "legendary",
+      "description": "A combat trait affecting strike and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_186",
+      "name": "Phantom grit 36",
+      "category": "Combat",
+      "rarity": "common",
+      "description": "A combat trait affecting grit and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_187",
+      "name": "Phantom tempo 37",
+      "category": "Combat",
+      "rarity": "uncommon",
+      "description": "A combat trait affecting tempo and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_188",
+      "name": "Phantom counter 38",
+      "category": "Combat",
+      "rarity": "rare",
+      "description": "A combat trait affecting counter and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_189",
+      "name": "Phantom will 39",
+      "category": "Combat",
+      "rarity": "epic",
+      "description": "A combat trait affecting will and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_190",
+      "name": "Phantom edge 40",
+      "category": "Combat",
+      "rarity": "legendary",
+      "description": "A combat trait affecting edge and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_191",
+      "name": "Hunter instinct 41",
+      "category": "Combat",
+      "rarity": "common",
+      "description": "A combat trait affecting instinct and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_192",
+      "name": "Hunter stance 42",
+      "category": "Combat",
+      "rarity": "uncommon",
+      "description": "A combat trait affecting stance and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_193",
+      "name": "Hunter aim 43",
+      "category": "Combat",
+      "rarity": "rare",
+      "description": "A combat trait affecting aim and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_194",
+      "name": "Hunter guard 44",
+      "category": "Combat",
+      "rarity": "epic",
+      "description": "A combat trait affecting guard and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_195",
+      "name": "Hunter strike 45",
+      "category": "Combat",
+      "rarity": "legendary",
+      "description": "A combat trait affecting strike and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_196",
+      "name": "Gladiator grit 46",
+      "category": "Combat",
+      "rarity": "common",
+      "description": "A combat trait affecting grit and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_197",
+      "name": "Gladiator tempo 47",
+      "category": "Combat",
+      "rarity": "uncommon",
+      "description": "A combat trait affecting tempo and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_198",
+      "name": "Gladiator counter 48",
+      "category": "Combat",
+      "rarity": "rare",
+      "description": "A combat trait affecting counter and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_199",
+      "name": "Gladiator will 49",
+      "category": "Combat",
+      "rarity": "epic",
+      "description": "A combat trait affecting will and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_200",
+      "name": "Gladiator edge 50",
+      "category": "Combat",
+      "rarity": "legendary",
+      "description": "A combat trait affecting edge and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_201",
+      "name": "Desert adaptation 01",
+      "category": "Survival",
+      "rarity": "common",
+      "description": "A survival trait affecting adaptation and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_202",
+      "name": "Desert metabolism 02",
+      "category": "Survival",
+      "rarity": "uncommon",
+      "description": "A survival trait affecting metabolism and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_203",
+      "name": "Desert resilience 03",
+      "category": "Survival",
+      "rarity": "rare",
+      "description": "A survival trait affecting resilience and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_204",
+      "name": "Desert camouflage 04",
+      "category": "Survival",
+      "rarity": "epic",
+      "description": "A survival trait affecting camouflage and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_205",
+      "name": "Desert thirst 05",
+      "category": "Survival",
+      "rarity": "legendary",
+      "description": "A survival trait affecting thirst and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_206",
+      "name": "Tundra tolerance 06",
+      "category": "Survival",
+      "rarity": "common",
+      "description": "A survival trait affecting tolerance and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_207",
+      "name": "Tundra recovery 07",
+      "category": "Survival",
+      "rarity": "uncommon",
+      "description": "A survival trait affecting recovery and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_208",
+      "name": "Tundra senses 08",
+      "category": "Survival",
+      "rarity": "rare",
+      "description": "A survival trait affecting senses and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_209",
+      "name": "Tundra endurance 09",
+      "category": "Survival",
+      "rarity": "epic",
+      "description": "A survival trait affecting endurance and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_210",
+      "name": "Tundra resistance 10",
+      "category": "Survival",
+      "rarity": "legendary",
+      "description": "A survival trait affecting resistance and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_211",
+      "name": "Abyssal adaptation 11",
+      "category": "Survival",
+      "rarity": "common",
+      "description": "A survival trait affecting adaptation and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_212",
+      "name": "Abyssal metabolism 12",
+      "category": "Survival",
+      "rarity": "uncommon",
+      "description": "A survival trait affecting metabolism and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_213",
+      "name": "Abyssal resilience 13",
+      "category": "Survival",
+      "rarity": "rare",
+      "description": "A survival trait affecting resilience and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_214",
+      "name": "Abyssal camouflage 14",
+      "category": "Survival",
+      "rarity": "epic",
+      "description": "A survival trait affecting camouflage and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_215",
+      "name": "Abyssal thirst 15",
+      "category": "Survival",
+      "rarity": "legendary",
+      "description": "A survival trait affecting thirst and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_216",
+      "name": "Jungle tolerance 16",
+      "category": "Survival",
+      "rarity": "common",
+      "description": "A survival trait affecting tolerance and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_217",
+      "name": "Jungle recovery 17",
+      "category": "Survival",
+      "rarity": "uncommon",
+      "description": "A survival trait affecting recovery and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_218",
+      "name": "Jungle senses 18",
+      "category": "Survival",
+      "rarity": "rare",
+      "description": "A survival trait affecting senses and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_219",
+      "name": "Jungle endurance 19",
+      "category": "Survival",
+      "rarity": "epic",
+      "description": "A survival trait affecting endurance and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_220",
+      "name": "Jungle resistance 20",
+      "category": "Survival",
+      "rarity": "legendary",
+      "description": "A survival trait affecting resistance and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_221",
+      "name": "Mountain adaptation 21",
+      "category": "Survival",
+      "rarity": "common",
+      "description": "A survival trait affecting adaptation and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_222",
+      "name": "Mountain metabolism 22",
+      "category": "Survival",
+      "rarity": "uncommon",
+      "description": "A survival trait affecting metabolism and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_223",
+      "name": "Mountain resilience 23",
+      "category": "Survival",
+      "rarity": "rare",
+      "description": "A survival trait affecting resilience and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_224",
+      "name": "Mountain camouflage 24",
+      "category": "Survival",
+      "rarity": "epic",
+      "description": "A survival trait affecting camouflage and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_225",
+      "name": "Mountain thirst 25",
+      "category": "Survival",
+      "rarity": "legendary",
+      "description": "A survival trait affecting thirst and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_226",
+      "name": "Marsh tolerance 26",
+      "category": "Survival",
+      "rarity": "common",
+      "description": "A survival trait affecting tolerance and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_227",
+      "name": "Marsh recovery 27",
+      "category": "Survival",
+      "rarity": "uncommon",
+      "description": "A survival trait affecting recovery and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_228",
+      "name": "Marsh senses 28",
+      "category": "Survival",
+      "rarity": "rare",
+      "description": "A survival trait affecting senses and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_229",
+      "name": "Marsh endurance 29",
+      "category": "Survival",
+      "rarity": "epic",
+      "description": "A survival trait affecting endurance and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_230",
+      "name": "Marsh resistance 30",
+      "category": "Survival",
+      "rarity": "legendary",
+      "description": "A survival trait affecting resistance and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_231",
+      "name": "Cavern adaptation 31",
+      "category": "Survival",
+      "rarity": "common",
+      "description": "A survival trait affecting adaptation and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_232",
+      "name": "Cavern metabolism 32",
+      "category": "Survival",
+      "rarity": "uncommon",
+      "description": "A survival trait affecting metabolism and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_233",
+      "name": "Cavern resilience 33",
+      "category": "Survival",
+      "rarity": "rare",
+      "description": "A survival trait affecting resilience and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_234",
+      "name": "Cavern camouflage 34",
+      "category": "Survival",
+      "rarity": "epic",
+      "description": "A survival trait affecting camouflage and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_235",
+      "name": "Cavern thirst 35",
+      "category": "Survival",
+      "rarity": "legendary",
+      "description": "A survival trait affecting thirst and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_236",
+      "name": "Nomad tolerance 36",
+      "category": "Survival",
+      "rarity": "common",
+      "description": "A survival trait affecting tolerance and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_237",
+      "name": "Nomad recovery 37",
+      "category": "Survival",
+      "rarity": "uncommon",
+      "description": "A survival trait affecting recovery and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_238",
+      "name": "Nomad senses 38",
+      "category": "Survival",
+      "rarity": "rare",
+      "description": "A survival trait affecting senses and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_239",
+      "name": "Nomad endurance 39",
+      "category": "Survival",
+      "rarity": "epic",
+      "description": "A survival trait affecting endurance and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_240",
+      "name": "Nomad resistance 40",
+      "category": "Survival",
+      "rarity": "legendary",
+      "description": "A survival trait affecting resistance and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_241",
+      "name": "Dusk adaptation 41",
+      "category": "Survival",
+      "rarity": "common",
+      "description": "A survival trait affecting adaptation and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_242",
+      "name": "Dusk metabolism 42",
+      "category": "Survival",
+      "rarity": "uncommon",
+      "description": "A survival trait affecting metabolism and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_243",
+      "name": "Dusk resilience 43",
+      "category": "Survival",
+      "rarity": "rare",
+      "description": "A survival trait affecting resilience and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_244",
+      "name": "Dusk camouflage 44",
+      "category": "Survival",
+      "rarity": "epic",
+      "description": "A survival trait affecting camouflage and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_245",
+      "name": "Dusk thirst 45",
+      "category": "Survival",
+      "rarity": "legendary",
+      "description": "A survival trait affecting thirst and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_246",
+      "name": "Dawn tolerance 46",
+      "category": "Survival",
+      "rarity": "common",
+      "description": "A survival trait affecting tolerance and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_247",
+      "name": "Dawn recovery 47",
+      "category": "Survival",
+      "rarity": "uncommon",
+      "description": "A survival trait affecting recovery and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_248",
+      "name": "Dawn senses 48",
+      "category": "Survival",
+      "rarity": "rare",
+      "description": "A survival trait affecting senses and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_249",
+      "name": "Dawn endurance 49",
+      "category": "Survival",
+      "rarity": "epic",
+      "description": "A survival trait affecting endurance and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_250",
+      "name": "Dawn resistance 50",
+      "category": "Survival",
+      "rarity": "legendary",
+      "description": "A survival trait affecting resistance and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_251",
+      "name": "Genius memory 01",
+      "category": "Mind",
+      "rarity": "common",
+      "description": "A mind trait affecting memory and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_252",
+      "name": "Genius reason 02",
+      "category": "Mind",
+      "rarity": "uncommon",
+      "description": "A mind trait affecting reason and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_253",
+      "name": "Genius intuition 03",
+      "category": "Mind",
+      "rarity": "rare",
+      "description": "A mind trait affecting intuition and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_254",
+      "name": "Genius learning 04",
+      "category": "Mind",
+      "rarity": "epic",
+      "description": "A mind trait affecting learning and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_255",
+      "name": "Genius creativity 05",
+      "category": "Mind",
+      "rarity": "legendary",
+      "description": "A mind trait affecting creativity and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_256",
+      "name": "Tactical awareness 06",
+      "category": "Mind",
+      "rarity": "common",
+      "description": "A mind trait affecting awareness and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_257",
+      "name": "Tactical discipline 07",
+      "category": "Mind",
+      "rarity": "uncommon",
+      "description": "A mind trait affecting discipline and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_258",
+      "name": "Tactical language 08",
+      "category": "Mind",
+      "rarity": "rare",
+      "description": "A mind trait affecting language and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_259",
+      "name": "Tactical planning 09",
+      "category": "Mind",
+      "rarity": "epic",
+      "description": "A mind trait affecting planning and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_260",
+      "name": "Tactical perception 10",
+      "category": "Mind",
+      "rarity": "legendary",
+      "description": "A mind trait affecting perception and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_261",
+      "name": "Empathic memory 11",
+      "category": "Mind",
+      "rarity": "common",
+      "description": "A mind trait affecting memory and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_262",
+      "name": "Empathic reason 12",
+      "category": "Mind",
+      "rarity": "uncommon",
+      "description": "A mind trait affecting reason and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_263",
+      "name": "Empathic intuition 13",
+      "category": "Mind",
+      "rarity": "rare",
+      "description": "A mind trait affecting intuition and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_264",
+      "name": "Empathic learning 14",
+      "category": "Mind",
+      "rarity": "epic",
+      "description": "A mind trait affecting learning and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_265",
+      "name": "Empathic creativity 15",
+      "category": "Mind",
+      "rarity": "legendary",
+      "description": "A mind trait affecting creativity and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_266",
+      "name": "Focused awareness 16",
+      "category": "Mind",
+      "rarity": "common",
+      "description": "A mind trait affecting awareness and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_267",
+      "name": "Focused discipline 17",
+      "category": "Mind",
+      "rarity": "uncommon",
+      "description": "A mind trait affecting discipline and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_268",
+      "name": "Focused language 18",
+      "category": "Mind",
+      "rarity": "rare",
+      "description": "A mind trait affecting language and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_269",
+      "name": "Focused planning 19",
+      "category": "Mind",
+      "rarity": "epic",
+      "description": "A mind trait affecting planning and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_270",
+      "name": "Focused perception 20",
+      "category": "Mind",
+      "rarity": "legendary",
+      "description": "A mind trait affecting perception and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_271",
+      "name": "Curious memory 21",
+      "category": "Mind",
+      "rarity": "common",
+      "description": "A mind trait affecting memory and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_272",
+      "name": "Curious reason 22",
+      "category": "Mind",
+      "rarity": "uncommon",
+      "description": "A mind trait affecting reason and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_273",
+      "name": "Curious intuition 23",
+      "category": "Mind",
+      "rarity": "rare",
+      "description": "A mind trait affecting intuition and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_274",
+      "name": "Curious learning 24",
+      "category": "Mind",
+      "rarity": "epic",
+      "description": "A mind trait affecting learning and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_275",
+      "name": "Curious creativity 25",
+      "category": "Mind",
+      "rarity": "legendary",
+      "description": "A mind trait affecting creativity and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_276",
+      "name": "Patient awareness 26",
+      "category": "Mind",
+      "rarity": "common",
+      "description": "A mind trait affecting awareness and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_277",
+      "name": "Patient discipline 27",
+      "category": "Mind",
+      "rarity": "uncommon",
+      "description": "A mind trait affecting discipline and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_278",
+      "name": "Patient language 28",
+      "category": "Mind",
+      "rarity": "rare",
+      "description": "A mind trait affecting language and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_279",
+      "name": "Patient planning 29",
+      "category": "Mind",
+      "rarity": "epic",
+      "description": "A mind trait affecting planning and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_280",
+      "name": "Patient perception 30",
+      "category": "Mind",
+      "rarity": "legendary",
+      "description": "A mind trait affecting perception and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_281",
+      "name": "Cunning memory 31",
+      "category": "Mind",
+      "rarity": "common",
+      "description": "A mind trait affecting memory and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_282",
+      "name": "Cunning reason 32",
+      "category": "Mind",
+      "rarity": "uncommon",
+      "description": "A mind trait affecting reason and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_283",
+      "name": "Cunning intuition 33",
+      "category": "Mind",
+      "rarity": "rare",
+      "description": "A mind trait affecting intuition and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_284",
+      "name": "Cunning learning 34",
+      "category": "Mind",
+      "rarity": "epic",
+      "description": "A mind trait affecting learning and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_285",
+      "name": "Cunning creativity 35",
+      "category": "Mind",
+      "rarity": "legendary",
+      "description": "A mind trait affecting creativity and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_286",
+      "name": "Keen awareness 36",
+      "category": "Mind",
+      "rarity": "common",
+      "description": "A mind trait affecting awareness and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_287",
+      "name": "Keen discipline 37",
+      "category": "Mind",
+      "rarity": "uncommon",
+      "description": "A mind trait affecting discipline and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_288",
+      "name": "Keen language 38",
+      "category": "Mind",
+      "rarity": "rare",
+      "description": "A mind trait affecting language and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_289",
+      "name": "Keen planning 39",
+      "category": "Mind",
+      "rarity": "epic",
+      "description": "A mind trait affecting planning and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_290",
+      "name": "Keen perception 40",
+      "category": "Mind",
+      "rarity": "legendary",
+      "description": "A mind trait affecting perception and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_291",
+      "name": "Wise memory 41",
+      "category": "Mind",
+      "rarity": "common",
+      "description": "A mind trait affecting memory and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_292",
+      "name": "Wise reason 42",
+      "category": "Mind",
+      "rarity": "uncommon",
+      "description": "A mind trait affecting reason and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_293",
+      "name": "Wise intuition 43",
+      "category": "Mind",
+      "rarity": "rare",
+      "description": "A mind trait affecting intuition and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_294",
+      "name": "Wise learning 44",
+      "category": "Mind",
+      "rarity": "epic",
+      "description": "A mind trait affecting learning and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_295",
+      "name": "Wise creativity 45",
+      "category": "Mind",
+      "rarity": "legendary",
+      "description": "A mind trait affecting creativity and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_296",
+      "name": "Inventive awareness 46",
+      "category": "Mind",
+      "rarity": "common",
+      "description": "A mind trait affecting awareness and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_297",
+      "name": "Inventive discipline 47",
+      "category": "Mind",
+      "rarity": "uncommon",
+      "description": "A mind trait affecting discipline and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_298",
+      "name": "Inventive language 48",
+      "category": "Mind",
+      "rarity": "rare",
+      "description": "A mind trait affecting language and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_299",
+      "name": "Inventive planning 49",
+      "category": "Mind",
+      "rarity": "epic",
+      "description": "A mind trait affecting planning and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_300",
+      "name": "Inventive perception 50",
+      "category": "Mind",
+      "rarity": "legendary",
+      "description": "A mind trait affecting perception and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_301",
+      "name": "Regenerative cell 01",
+      "category": "Vital",
+      "rarity": "common",
+      "description": "A vital trait affecting cell and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_302",
+      "name": "Regenerative marrow 02",
+      "category": "Vital",
+      "rarity": "uncommon",
+      "description": "A vital trait affecting marrow and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_303",
+      "name": "Regenerative blood 03",
+      "category": "Vital",
+      "rarity": "rare",
+      "description": "A vital trait affecting blood and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_304",
+      "name": "Regenerative repair 04",
+      "category": "Vital",
+      "rarity": "epic",
+      "description": "A vital trait affecting repair and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_305",
+      "name": "Regenerative longevity 05",
+      "category": "Vital",
+      "rarity": "legendary",
+      "description": "A vital trait affecting longevity and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_306",
+      "name": "Vital immunity 06",
+      "category": "Vital",
+      "rarity": "common",
+      "description": "A vital trait affecting immunity and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_307",
+      "name": "Vital vitality 07",
+      "category": "Vital",
+      "rarity": "uncommon",
+      "description": "A vital trait affecting vitality and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_308",
+      "name": "Vital growth 08",
+      "category": "Vital",
+      "rarity": "rare",
+      "description": "A vital trait affecting growth and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_309",
+      "name": "Vital healing 09",
+      "category": "Vital",
+      "rarity": "epic",
+      "description": "A vital trait affecting healing and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_310",
+      "name": "Vital life 10",
+      "category": "Vital",
+      "rarity": "legendary",
+      "description": "A vital trait affecting life and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_311",
+      "name": "Ancient cell 11",
+      "category": "Vital",
+      "rarity": "common",
+      "description": "A vital trait affecting cell and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_312",
+      "name": "Ancient marrow 12",
+      "category": "Vital",
+      "rarity": "uncommon",
+      "description": "A vital trait affecting marrow and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_313",
+      "name": "Ancient blood 13",
+      "category": "Vital",
+      "rarity": "rare",
+      "description": "A vital trait affecting blood and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_314",
+      "name": "Ancient repair 14",
+      "category": "Vital",
+      "rarity": "epic",
+      "description": "A vital trait affecting repair and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_315",
+      "name": "Ancient longevity 15",
+      "category": "Vital",
+      "rarity": "legendary",
+      "description": "A vital trait affecting longevity and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_316",
+      "name": "Primal immunity 16",
+      "category": "Vital",
+      "rarity": "common",
+      "description": "A vital trait affecting immunity and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_317",
+      "name": "Primal vitality 17",
+      "category": "Vital",
+      "rarity": "uncommon",
+      "description": "A vital trait affecting vitality and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_318",
+      "name": "Primal growth 18",
+      "category": "Vital",
+      "rarity": "rare",
+      "description": "A vital trait affecting growth and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_319",
+      "name": "Primal healing 19",
+      "category": "Vital",
+      "rarity": "epic",
+      "description": "A vital trait affecting healing and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_320",
+      "name": "Primal life 20",
+      "category": "Vital",
+      "rarity": "legendary",
+      "description": "A vital trait affecting life and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_321",
+      "name": "Pure cell 21",
+      "category": "Vital",
+      "rarity": "common",
+      "description": "A vital trait affecting cell and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_322",
+      "name": "Pure marrow 22",
+      "category": "Vital",
+      "rarity": "uncommon",
+      "description": "A vital trait affecting marrow and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_323",
+      "name": "Pure blood 23",
+      "category": "Vital",
+      "rarity": "rare",
+      "description": "A vital trait affecting blood and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_324",
+      "name": "Pure repair 24",
+      "category": "Vital",
+      "rarity": "epic",
+      "description": "A vital trait affecting repair and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_325",
+      "name": "Pure longevity 25",
+      "category": "Vital",
+      "rarity": "legendary",
+      "description": "A vital trait affecting longevity and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_326",
+      "name": "Robust immunity 26",
+      "category": "Vital",
+      "rarity": "common",
+      "description": "A vital trait affecting immunity and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_327",
+      "name": "Robust vitality 27",
+      "category": "Vital",
+      "rarity": "uncommon",
+      "description": "A vital trait affecting vitality and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_328",
+      "name": "Robust growth 28",
+      "category": "Vital",
+      "rarity": "rare",
+      "description": "A vital trait affecting growth and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_329",
+      "name": "Robust healing 29",
+      "category": "Vital",
+      "rarity": "epic",
+      "description": "A vital trait affecting healing and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_330",
+      "name": "Robust life 30",
+      "category": "Vital",
+      "rarity": "legendary",
+      "description": "A vital trait affecting life and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_331",
+      "name": "Evergreen cell 31",
+      "category": "Vital",
+      "rarity": "common",
+      "description": "A vital trait affecting cell and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_332",
+      "name": "Evergreen marrow 32",
+      "category": "Vital",
+      "rarity": "uncommon",
+      "description": "A vital trait affecting marrow and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_333",
+      "name": "Evergreen blood 33",
+      "category": "Vital",
+      "rarity": "rare",
+      "description": "A vital trait affecting blood and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_334",
+      "name": "Evergreen repair 34",
+      "category": "Vital",
+      "rarity": "epic",
+      "description": "A vital trait affecting repair and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_335",
+      "name": "Evergreen longevity 35",
+      "category": "Vital",
+      "rarity": "legendary",
+      "description": "A vital trait affecting longevity and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_336",
+      "name": "Stalwart immunity 36",
+      "category": "Vital",
+      "rarity": "common",
+      "description": "A vital trait affecting immunity and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_337",
+      "name": "Stalwart vitality 37",
+      "category": "Vital",
+      "rarity": "uncommon",
+      "description": "A vital trait affecting vitality and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_338",
+      "name": "Stalwart growth 38",
+      "category": "Vital",
+      "rarity": "rare",
+      "description": "A vital trait affecting growth and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_339",
+      "name": "Stalwart healing 39",
+      "category": "Vital",
+      "rarity": "epic",
+      "description": "A vital trait affecting healing and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_340",
+      "name": "Stalwart life 40",
+      "category": "Vital",
+      "rarity": "legendary",
+      "description": "A vital trait affecting life and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_341",
+      "name": "Radiant cell 41",
+      "category": "Vital",
+      "rarity": "common",
+      "description": "A vital trait affecting cell and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_342",
+      "name": "Radiant marrow 42",
+      "category": "Vital",
+      "rarity": "uncommon",
+      "description": "A vital trait affecting marrow and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_343",
+      "name": "Radiant blood 43",
+      "category": "Vital",
+      "rarity": "rare",
+      "description": "A vital trait affecting blood and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_344",
+      "name": "Radiant repair 44",
+      "category": "Vital",
+      "rarity": "epic",
+      "description": "A vital trait affecting repair and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_345",
+      "name": "Radiant longevity 45",
+      "category": "Vital",
+      "rarity": "legendary",
+      "description": "A vital trait affecting longevity and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_346",
+      "name": "Unbroken immunity 46",
+      "category": "Vital",
+      "rarity": "common",
+      "description": "A vital trait affecting immunity and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_347",
+      "name": "Unbroken vitality 47",
+      "category": "Vital",
+      "rarity": "uncommon",
+      "description": "A vital trait affecting vitality and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_348",
+      "name": "Unbroken growth 48",
+      "category": "Vital",
+      "rarity": "rare",
+      "description": "A vital trait affecting growth and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_349",
+      "name": "Unbroken healing 49",
+      "category": "Vital",
+      "rarity": "epic",
+      "description": "A vital trait affecting healing and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_350",
+      "name": "Unbroken life 50",
+      "category": "Vital",
+      "rarity": "legendary",
+      "description": "A vital trait affecting life and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_351",
+      "name": "Twisted sequence 01",
+      "category": "Mutation",
+      "rarity": "common",
+      "description": "A mutation trait affecting sequence and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_352",
+      "name": "Twisted morph 02",
+      "category": "Mutation",
+      "rarity": "uncommon",
+      "description": "A mutation trait affecting morph and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_353",
+      "name": "Twisted splice 03",
+      "category": "Mutation",
+      "rarity": "rare",
+      "description": "A mutation trait affecting splice and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_354",
+      "name": "Twisted shift 04",
+      "category": "Mutation",
+      "rarity": "epic",
+      "description": "A mutation trait affecting shift and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_355",
+      "name": "Twisted bloom 05",
+      "category": "Mutation",
+      "rarity": "legendary",
+      "description": "A mutation trait affecting bloom and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_356",
+      "name": "Adaptive branch 06",
+      "category": "Mutation",
+      "rarity": "common",
+      "description": "A mutation trait affecting branch and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_357",
+      "name": "Adaptive variant 07",
+      "category": "Mutation",
+      "rarity": "uncommon",
+      "description": "A mutation trait affecting variant and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_358",
+      "name": "Adaptive mutation 08",
+      "category": "Mutation",
+      "rarity": "rare",
+      "description": "A mutation trait affecting mutation and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_359",
+      "name": "Adaptive fusion 09",
+      "category": "Mutation",
+      "rarity": "epic",
+      "description": "A mutation trait affecting fusion and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_360",
+      "name": "Adaptive expression 10",
+      "category": "Mutation",
+      "rarity": "legendary",
+      "description": "A mutation trait affecting expression and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_361",
+      "name": "Unstable sequence 11",
+      "category": "Mutation",
+      "rarity": "common",
+      "description": "A mutation trait affecting sequence and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_362",
+      "name": "Unstable morph 12",
+      "category": "Mutation",
+      "rarity": "uncommon",
+      "description": "A mutation trait affecting morph and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_363",
+      "name": "Unstable splice 13",
+      "category": "Mutation",
+      "rarity": "rare",
+      "description": "A mutation trait affecting splice and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_364",
+      "name": "Unstable shift 14",
+      "category": "Mutation",
+      "rarity": "epic",
+      "description": "A mutation trait affecting shift and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_365",
+      "name": "Unstable bloom 15",
+      "category": "Mutation",
+      "rarity": "legendary",
+      "description": "A mutation trait affecting bloom and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_366",
+      "name": "Symbiotic branch 16",
+      "category": "Mutation",
+      "rarity": "common",
+      "description": "A mutation trait affecting branch and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_367",
+      "name": "Symbiotic variant 17",
+      "category": "Mutation",
+      "rarity": "uncommon",
+      "description": "A mutation trait affecting variant and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_368",
+      "name": "Symbiotic mutation 18",
+      "category": "Mutation",
+      "rarity": "rare",
+      "description": "A mutation trait affecting mutation and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_369",
+      "name": "Symbiotic fusion 19",
+      "category": "Mutation",
+      "rarity": "epic",
+      "description": "A mutation trait affecting fusion and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_370",
+      "name": "Symbiotic expression 20",
+      "category": "Mutation",
+      "rarity": "legendary",
+      "description": "A mutation trait affecting expression and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_371",
+      "name": "Parasitic sequence 21",
+      "category": "Mutation",
+      "rarity": "common",
+      "description": "A mutation trait affecting sequence and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_372",
+      "name": "Parasitic morph 22",
+      "category": "Mutation",
+      "rarity": "uncommon",
+      "description": "A mutation trait affecting morph and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_373",
+      "name": "Parasitic splice 23",
+      "category": "Mutation",
+      "rarity": "rare",
+      "description": "A mutation trait affecting splice and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_374",
+      "name": "Parasitic shift 24",
+      "category": "Mutation",
+      "rarity": "epic",
+      "description": "A mutation trait affecting shift and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_375",
+      "name": "Parasitic bloom 25",
+      "category": "Mutation",
+      "rarity": "legendary",
+      "description": "A mutation trait affecting bloom and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_376",
+      "name": "Chromatic branch 26",
+      "category": "Mutation",
+      "rarity": "common",
+      "description": "A mutation trait affecting branch and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_377",
+      "name": "Chromatic variant 27",
+      "category": "Mutation",
+      "rarity": "uncommon",
+      "description": "A mutation trait affecting variant and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_378",
+      "name": "Chromatic mutation 28",
+      "category": "Mutation",
+      "rarity": "rare",
+      "description": "A mutation trait affecting mutation and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_379",
+      "name": "Chromatic fusion 29",
+      "category": "Mutation",
+      "rarity": "epic",
+      "description": "A mutation trait affecting fusion and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_380",
+      "name": "Chromatic expression 30",
+      "category": "Mutation",
+      "rarity": "legendary",
+      "description": "A mutation trait affecting expression and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_381",
+      "name": "Shadow sequence 31",
+      "category": "Mutation",
+      "rarity": "common",
+      "description": "A mutation trait affecting sequence and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_382",
+      "name": "Shadow morph 32",
+      "category": "Mutation",
+      "rarity": "uncommon",
+      "description": "A mutation trait affecting morph and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_383",
+      "name": "Shadow splice 33",
+      "category": "Mutation",
+      "rarity": "rare",
+      "description": "A mutation trait affecting splice and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_384",
+      "name": "Shadow shift 34",
+      "category": "Mutation",
+      "rarity": "epic",
+      "description": "A mutation trait affecting shift and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_385",
+      "name": "Shadow bloom 35",
+      "category": "Mutation",
+      "rarity": "legendary",
+      "description": "A mutation trait affecting bloom and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_386",
+      "name": "Gilded branch 36",
+      "category": "Mutation",
+      "rarity": "common",
+      "description": "A mutation trait affecting branch and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_387",
+      "name": "Gilded variant 37",
+      "category": "Mutation",
+      "rarity": "uncommon",
+      "description": "A mutation trait affecting variant and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_388",
+      "name": "Gilded mutation 38",
+      "category": "Mutation",
+      "rarity": "rare",
+      "description": "A mutation trait affecting mutation and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_389",
+      "name": "Gilded fusion 39",
+      "category": "Mutation",
+      "rarity": "epic",
+      "description": "A mutation trait affecting fusion and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_390",
+      "name": "Gilded expression 40",
+      "category": "Mutation",
+      "rarity": "legendary",
+      "description": "A mutation trait affecting expression and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_391",
+      "name": "Hollow sequence 41",
+      "category": "Mutation",
+      "rarity": "common",
+      "description": "A mutation trait affecting sequence and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_392",
+      "name": "Hollow morph 42",
+      "category": "Mutation",
+      "rarity": "uncommon",
+      "description": "A mutation trait affecting morph and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_393",
+      "name": "Hollow splice 43",
+      "category": "Mutation",
+      "rarity": "rare",
+      "description": "A mutation trait affecting splice and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_394",
+      "name": "Hollow shift 44",
+      "category": "Mutation",
+      "rarity": "epic",
+      "description": "A mutation trait affecting shift and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_395",
+      "name": "Hollow bloom 45",
+      "category": "Mutation",
+      "rarity": "legendary",
+      "description": "A mutation trait affecting bloom and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_396",
+      "name": "Wild branch 46",
+      "category": "Mutation",
+      "rarity": "common",
+      "description": "A mutation trait affecting branch and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_397",
+      "name": "Wild variant 47",
+      "category": "Mutation",
+      "rarity": "uncommon",
+      "description": "A mutation trait affecting variant and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_398",
+      "name": "Wild mutation 48",
+      "category": "Mutation",
+      "rarity": "rare",
+      "description": "A mutation trait affecting mutation and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_399",
+      "name": "Wild fusion 49",
+      "category": "Mutation",
+      "rarity": "epic",
+      "description": "A mutation trait affecting fusion and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_400",
+      "name": "Wild expression 50",
+      "category": "Mutation",
+      "rarity": "legendary",
+      "description": "A mutation trait affecting expression and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_401",
+      "name": "Royal voice 01",
+      "category": "Social",
+      "rarity": "common",
+      "description": "A social trait affecting voice and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_402",
+      "name": "Royal bond 02",
+      "category": "Social",
+      "rarity": "uncommon",
+      "description": "A social trait affecting bond and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_403",
+      "name": "Royal leadership 03",
+      "category": "Social",
+      "rarity": "rare",
+      "description": "A social trait affecting leadership and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_404",
+      "name": "Royal trust 04",
+      "category": "Social",
+      "rarity": "epic",
+      "description": "A social trait affecting trust and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_405",
+      "name": "Royal tradition 05",
+      "category": "Social",
+      "rarity": "legendary",
+      "description": "A social trait affecting tradition and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_406",
+      "name": "Diplomatic influence 06",
+      "category": "Social",
+      "rarity": "common",
+      "description": "A social trait affecting influence and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_407",
+      "name": "Diplomatic kinship 07",
+      "category": "Social",
+      "rarity": "uncommon",
+      "description": "A social trait affecting kinship and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_408",
+      "name": "Diplomatic resolve 08",
+      "category": "Social",
+      "rarity": "rare",
+      "description": "A social trait affecting resolve and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_409",
+      "name": "Diplomatic unity 09",
+      "category": "Social",
+      "rarity": "epic",
+      "description": "A social trait affecting unity and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_410",
+      "name": "Diplomatic legacy 10",
+      "category": "Social",
+      "rarity": "legendary",
+      "description": "A social trait affecting legacy and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_411",
+      "name": "Charismatic voice 11",
+      "category": "Social",
+      "rarity": "common",
+      "description": "A social trait affecting voice and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_412",
+      "name": "Charismatic bond 12",
+      "category": "Social",
+      "rarity": "uncommon",
+      "description": "A social trait affecting bond and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_413",
+      "name": "Charismatic leadership 13",
+      "category": "Social",
+      "rarity": "rare",
+      "description": "A social trait affecting leadership and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_414",
+      "name": "Charismatic trust 14",
+      "category": "Social",
+      "rarity": "epic",
+      "description": "A social trait affecting trust and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_415",
+      "name": "Charismatic tradition 15",
+      "category": "Social",
+      "rarity": "legendary",
+      "description": "A social trait affecting tradition and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_416",
+      "name": "Tribal influence 16",
+      "category": "Social",
+      "rarity": "common",
+      "description": "A social trait affecting influence and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_417",
+      "name": "Tribal kinship 17",
+      "category": "Social",
+      "rarity": "uncommon",
+      "description": "A social trait affecting kinship and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_418",
+      "name": "Tribal resolve 18",
+      "category": "Social",
+      "rarity": "rare",
+      "description": "A social trait affecting resolve and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_419",
+      "name": "Tribal unity 19",
+      "category": "Social",
+      "rarity": "epic",
+      "description": "A social trait affecting unity and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_420",
+      "name": "Tribal legacy 20",
+      "category": "Social",
+      "rarity": "legendary",
+      "description": "A social trait affecting legacy and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_421",
+      "name": "Noble voice 21",
+      "category": "Social",
+      "rarity": "common",
+      "description": "A social trait affecting voice and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_422",
+      "name": "Noble bond 22",
+      "category": "Social",
+      "rarity": "uncommon",
+      "description": "A social trait affecting bond and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_423",
+      "name": "Noble leadership 23",
+      "category": "Social",
+      "rarity": "rare",
+      "description": "A social trait affecting leadership and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_424",
+      "name": "Noble trust 24",
+      "category": "Social",
+      "rarity": "epic",
+      "description": "A social trait affecting trust and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_425",
+      "name": "Noble tradition 25",
+      "category": "Social",
+      "rarity": "legendary",
+      "description": "A social trait affecting tradition and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_426",
+      "name": "Loyal influence 26",
+      "category": "Social",
+      "rarity": "common",
+      "description": "A social trait affecting influence and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_427",
+      "name": "Loyal kinship 27",
+      "category": "Social",
+      "rarity": "uncommon",
+      "description": "A social trait affecting kinship and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_428",
+      "name": "Loyal resolve 28",
+      "category": "Social",
+      "rarity": "rare",
+      "description": "A social trait affecting resolve and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_429",
+      "name": "Loyal unity 29",
+      "category": "Social",
+      "rarity": "epic",
+      "description": "A social trait affecting unity and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_430",
+      "name": "Loyal legacy 30",
+      "category": "Social",
+      "rarity": "legendary",
+      "description": "A social trait affecting legacy and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_431",
+      "name": "Commanding voice 31",
+      "category": "Social",
+      "rarity": "common",
+      "description": "A social trait affecting voice and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_432",
+      "name": "Commanding bond 32",
+      "category": "Social",
+      "rarity": "uncommon",
+      "description": "A social trait affecting bond and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_433",
+      "name": "Commanding leadership 33",
+      "category": "Social",
+      "rarity": "rare",
+      "description": "A social trait affecting leadership and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_434",
+      "name": "Commanding trust 34",
+      "category": "Social",
+      "rarity": "epic",
+      "description": "A social trait affecting trust and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_435",
+      "name": "Commanding tradition 35",
+      "category": "Social",
+      "rarity": "legendary",
+      "description": "A social trait affecting tradition and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_436",
+      "name": "Peaceful influence 36",
+      "category": "Social",
+      "rarity": "common",
+      "description": "A social trait affecting influence and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_437",
+      "name": "Peaceful kinship 37",
+      "category": "Social",
+      "rarity": "uncommon",
+      "description": "A social trait affecting kinship and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_438",
+      "name": "Peaceful resolve 38",
+      "category": "Social",
+      "rarity": "rare",
+      "description": "A social trait affecting resolve and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_439",
+      "name": "Peaceful unity 39",
+      "category": "Social",
+      "rarity": "epic",
+      "description": "A social trait affecting unity and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_440",
+      "name": "Peaceful legacy 40",
+      "category": "Social",
+      "rarity": "legendary",
+      "description": "A social trait affecting legacy and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_441",
+      "name": "Ruthless voice 41",
+      "category": "Social",
+      "rarity": "common",
+      "description": "A social trait affecting voice and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_442",
+      "name": "Ruthless bond 42",
+      "category": "Social",
+      "rarity": "uncommon",
+      "description": "A social trait affecting bond and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_443",
+      "name": "Ruthless leadership 43",
+      "category": "Social",
+      "rarity": "rare",
+      "description": "A social trait affecting leadership and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_444",
+      "name": "Ruthless trust 44",
+      "category": "Social",
+      "rarity": "epic",
+      "description": "A social trait affecting trust and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_445",
+      "name": "Ruthless tradition 45",
+      "category": "Social",
+      "rarity": "legendary",
+      "description": "A social trait affecting tradition and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_446",
+      "name": "Cooperative influence 46",
+      "category": "Social",
+      "rarity": "common",
+      "description": "A social trait affecting influence and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_447",
+      "name": "Cooperative kinship 47",
+      "category": "Social",
+      "rarity": "uncommon",
+      "description": "A social trait affecting kinship and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_448",
+      "name": "Cooperative resolve 48",
+      "category": "Social",
+      "rarity": "rare",
+      "description": "A social trait affecting resolve and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_449",
+      "name": "Cooperative unity 49",
+      "category": "Social",
+      "rarity": "epic",
+      "description": "A social trait affecting unity and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_450",
+      "name": "Cooperative legacy 50",
+      "category": "Social",
+      "rarity": "legendary",
+      "description": "A social trait affecting legacy and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_451",
+      "name": "Mythic essence 01",
+      "category": "Rare",
+      "rarity": "common",
+      "description": "A rare trait affecting essence and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_452",
+      "name": "Mythic spark 02",
+      "category": "Rare",
+      "rarity": "uncommon",
+      "description": "A rare trait affecting spark and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_453",
+      "name": "Mythic heritage 03",
+      "category": "Rare",
+      "rarity": "rare",
+      "description": "A rare trait affecting heritage and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_454",
+      "name": "Mythic origin 04",
+      "category": "Rare",
+      "rarity": "epic",
+      "description": "A rare trait affecting origin and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_455",
+      "name": "Mythic anomaly 05",
+      "category": "Rare",
+      "rarity": "legendary",
+      "description": "A rare trait affecting anomaly and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_456",
+      "name": "Eternal blessing 06",
+      "category": "Rare",
+      "rarity": "common",
+      "description": "A rare trait affecting blessing and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_457",
+      "name": "Eternal destiny 07",
+      "category": "Rare",
+      "rarity": "uncommon",
+      "description": "A rare trait affecting destiny and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_458",
+      "name": "Eternal paradox 08",
+      "category": "Rare",
+      "rarity": "rare",
+      "description": "A rare trait affecting paradox and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_459",
+      "name": "Eternal crown 09",
+      "category": "Rare",
+      "rarity": "epic",
+      "description": "A rare trait affecting crown and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_460",
+      "name": "Eternal genesis 10",
+      "category": "Rare",
+      "rarity": "legendary",
+      "description": "A rare trait affecting genesis and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_461",
+      "name": "Infinite essence 11",
+      "category": "Rare",
+      "rarity": "common",
+      "description": "A rare trait affecting essence and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_462",
+      "name": "Infinite spark 12",
+      "category": "Rare",
+      "rarity": "uncommon",
+      "description": "A rare trait affecting spark and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_463",
+      "name": "Infinite heritage 13",
+      "category": "Rare",
+      "rarity": "rare",
+      "description": "A rare trait affecting heritage and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_464",
+      "name": "Infinite origin 14",
+      "category": "Rare",
+      "rarity": "epic",
+      "description": "A rare trait affecting origin and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_465",
+      "name": "Infinite anomaly 15",
+      "category": "Rare",
+      "rarity": "legendary",
+      "description": "A rare trait affecting anomaly and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_466",
+      "name": "Divine blessing 16",
+      "category": "Rare",
+      "rarity": "common",
+      "description": "A rare trait affecting blessing and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_467",
+      "name": "Divine destiny 17",
+      "category": "Rare",
+      "rarity": "uncommon",
+      "description": "A rare trait affecting destiny and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_468",
+      "name": "Divine paradox 18",
+      "category": "Rare",
+      "rarity": "rare",
+      "description": "A rare trait affecting paradox and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_469",
+      "name": "Divine crown 19",
+      "category": "Rare",
+      "rarity": "epic",
+      "description": "A rare trait affecting crown and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_470",
+      "name": "Divine genesis 20",
+      "category": "Rare",
+      "rarity": "legendary",
+      "description": "A rare trait affecting genesis and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_471",
+      "name": "Primordial essence 21",
+      "category": "Rare",
+      "rarity": "common",
+      "description": "A rare trait affecting essence and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_472",
+      "name": "Primordial spark 22",
+      "category": "Rare",
+      "rarity": "uncommon",
+      "description": "A rare trait affecting spark and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_473",
+      "name": "Primordial heritage 23",
+      "category": "Rare",
+      "rarity": "rare",
+      "description": "A rare trait affecting heritage and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_474",
+      "name": "Primordial origin 24",
+      "category": "Rare",
+      "rarity": "epic",
+      "description": "A rare trait affecting origin and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_475",
+      "name": "Primordial anomaly 25",
+      "category": "Rare",
+      "rarity": "legendary",
+      "description": "A rare trait affecting anomaly and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_476",
+      "name": "Transcendent blessing 26",
+      "category": "Rare",
+      "rarity": "common",
+      "description": "A rare trait affecting blessing and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_477",
+      "name": "Transcendent destiny 27",
+      "category": "Rare",
+      "rarity": "uncommon",
+      "description": "A rare trait affecting destiny and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_478",
+      "name": "Transcendent paradox 28",
+      "category": "Rare",
+      "rarity": "rare",
+      "description": "A rare trait affecting paradox and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_479",
+      "name": "Transcendent crown 29",
+      "category": "Rare",
+      "rarity": "epic",
+      "description": "A rare trait affecting crown and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_480",
+      "name": "Transcendent genesis 30",
+      "category": "Rare",
+      "rarity": "legendary",
+      "description": "A rare trait affecting genesis and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_481",
+      "name": "Forbidden essence 31",
+      "category": "Rare",
+      "rarity": "common",
+      "description": "A rare trait affecting essence and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_482",
+      "name": "Forbidden spark 32",
+      "category": "Rare",
+      "rarity": "uncommon",
+      "description": "A rare trait affecting spark and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_483",
+      "name": "Forbidden heritage 33",
+      "category": "Rare",
+      "rarity": "rare",
+      "description": "A rare trait affecting heritage and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_484",
+      "name": "Forbidden origin 34",
+      "category": "Rare",
+      "rarity": "epic",
+      "description": "A rare trait affecting origin and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_485",
+      "name": "Forbidden anomaly 35",
+      "category": "Rare",
+      "rarity": "legendary",
+      "description": "A rare trait affecting anomaly and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_486",
+      "name": "Perfected blessing 36",
+      "category": "Rare",
+      "rarity": "common",
+      "description": "A rare trait affecting blessing and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_487",
+      "name": "Perfected destiny 37",
+      "category": "Rare",
+      "rarity": "uncommon",
+      "description": "A rare trait affecting destiny and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_488",
+      "name": "Perfected paradox 38",
+      "category": "Rare",
+      "rarity": "rare",
+      "description": "A rare trait affecting paradox and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_489",
+      "name": "Perfected crown 39",
+      "category": "Rare",
+      "rarity": "epic",
+      "description": "A rare trait affecting crown and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_490",
+      "name": "Perfected genesis 40",
+      "category": "Rare",
+      "rarity": "legendary",
+      "description": "A rare trait affecting genesis and creature behavior.",
+      "effects": {
+        "stat": "adaptation",
+        "magnitude": 25,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_491",
+      "name": "Worldborn essence 41",
+      "category": "Rare",
+      "rarity": "common",
+      "description": "A rare trait affecting essence and creature behavior.",
+      "effects": {
+        "stat": "health",
+        "magnitude": 5,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_492",
+      "name": "Worldborn spark 42",
+      "category": "Rare",
+      "rarity": "uncommon",
+      "description": "A rare trait affecting spark and creature behavior.",
+      "effects": {
+        "stat": "damage",
+        "magnitude": 10,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_493",
+      "name": "Worldborn heritage 43",
+      "category": "Rare",
+      "rarity": "rare",
+      "description": "A rare trait affecting heritage and creature behavior.",
+      "effects": {
+        "stat": "speed",
+        "magnitude": 15,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_494",
+      "name": "Worldborn origin 44",
+      "category": "Rare",
+      "rarity": "epic",
+      "description": "A rare trait affecting origin and creature behavior.",
+      "effects": {
+        "stat": "defense",
+        "magnitude": 20,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_495",
+      "name": "Worldborn anomaly 45",
+      "category": "Rare",
+      "rarity": "legendary",
+      "description": "A rare trait affecting anomaly and creature behavior.",
+      "effects": {
+        "stat": "lifespan",
+        "magnitude": 25,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_496",
+      "name": "Godforged blessing 46",
+      "category": "Rare",
+      "rarity": "common",
+      "description": "A rare trait affecting blessing and creature behavior.",
+      "effects": {
+        "stat": "resistance",
+        "magnitude": 5,
+        "inheritance": "recessive"
+      }
+    },
+    {
+      "id": "trait_497",
+      "name": "Godforged destiny 47",
+      "category": "Rare",
+      "rarity": "uncommon",
+      "description": "A rare trait affecting destiny and creature behavior.",
+      "effects": {
+        "stat": "intelligence",
+        "magnitude": 10,
+        "inheritance": "codominant"
+      }
+    },
+    {
+      "id": "trait_498",
+      "name": "Godforged paradox 48",
+      "category": "Rare",
+      "rarity": "rare",
+      "description": "A rare trait affecting paradox and creature behavior.",
+      "effects": {
+        "stat": "recovery",
+        "magnitude": 15,
+        "inheritance": "polygenic"
+      }
+    },
+    {
+      "id": "trait_499",
+      "name": "Godforged crown 49",
+      "category": "Rare",
+      "rarity": "epic",
+      "description": "A rare trait affecting crown and creature behavior.",
+      "effects": {
+        "stat": "fertility",
+        "magnitude": 20,
+        "inheritance": "dominant"
+      }
+    },
+    {
+      "id": "trait_500",
+      "name": "TRUE IMMORTAL",
+      "category": "Rare",
+      "rarity": "mythic",
+      "description": "Cannot die from old age and is protected from health loss, including damage. Intended as an absolute immortality trait.",
+      "effects": {
+        "preventsOldAgeDeath": true,
+        "blocksHealthLoss": true,
+        "healthFloor": 1,
+        "inheritance": "recessive",
+        "geneRequired": "gene_500",
+        "canBeInherited": true
+      }
+    }
+  ]
+}
