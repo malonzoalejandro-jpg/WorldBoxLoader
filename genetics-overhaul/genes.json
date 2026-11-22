@@ -1,0 +1,6008 @@
+{
+  "schemaVersion": 1,
+  "gameTarget": "WorldBox Android 0.51.4 (IL2CPP)",
+  "count": 500,
+  "genes": [
+    {
+      "id": "gene_001",
+      "name": "Titan frame 01",
+      "category": "Physical",
+      "inheritance": "dominant",
+      "mutationRate": 0.001,
+      "description": "A heritable physical genetic locus that influences frame expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_002",
+      "name": "Titan muscle 02",
+      "category": "Physical",
+      "inheritance": "recessive",
+      "mutationRate": 0.003,
+      "description": "A heritable physical genetic locus that influences muscle expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_003",
+      "name": "Titan bone 03",
+      "category": "Physical",
+      "inheritance": "codominant",
+      "mutationRate": 0.005,
+      "description": "A heritable physical genetic locus that influences bone expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_004",
+      "name": "Titan skin 04",
+      "category": "Physical",
+      "inheritance": "polygenic",
+      "mutationRate": 0.01,
+      "description": "A heritable physical genetic locus that influences skin expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_005",
+      "name": "Titan reflex 05",
+      "category": "Physical",
+      "inheritance": "dominant",
+      "mutationRate": 0.02,
+      "description": "A heritable physical genetic locus that influences reflex expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_006",
+      "name": "Granite stride 06",
+      "category": "Physical",
+      "inheritance": "recessive",
+      "mutationRate": 0.001,
+      "description": "A heritable physical genetic locus that influences stride expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_007",
+      "name": "Granite grip 07",
+      "category": "Physical",
+      "inheritance": "codominant",
+      "mutationRate": 0.003,
+      "description": "A heritable physical genetic locus that influences grip expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_008",
+      "name": "Granite lung 08",
+      "category": "Physical",
+      "inheritance": "polygenic",
+      "mutationRate": 0.005,
+      "description": "A heritable physical genetic locus that influences lung expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_009",
+      "name": "Granite heart 09",
+      "category": "Physical",
+      "inheritance": "dominant",
+      "mutationRate": 0.01,
+      "description": "A heritable physical genetic locus that influences heart expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_010",
+      "name": "Granite sinew 10",
+      "category": "Physical",
+      "inheritance": "recessive",
+      "mutationRate": 0.02,
+      "description": "A heritable physical genetic locus that influences sinew expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_011",
+      "name": "Swift frame 11",
+      "category": "Physical",
+      "inheritance": "codominant",
+      "mutationRate": 0.001,
+      "description": "A heritable physical genetic locus that influences frame expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_012",
+      "name": "Swift muscle 12",
+      "category": "Physical",
+      "inheritance": "polygenic",
+      "mutationRate": 0.003,
+      "description": "A heritable physical genetic locus that influences muscle expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_013",
+      "name": "Swift bone 13",
+      "category": "Physical",
+      "inheritance": "dominant",
+      "mutationRate": 0.005,
+      "description": "A heritable physical genetic locus that influences bone expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_014",
+      "name": "Swift skin 14",
+      "category": "Physical",
+      "inheritance": "recessive",
+      "mutationRate": 0.01,
+      "description": "A heritable physical genetic locus that influences skin expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_015",
+      "name": "Swift reflex 15",
+      "category": "Physical",
+      "inheritance": "codominant",
+      "mutationRate": 0.02,
+      "description": "A heritable physical genetic locus that influences reflex expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_016",
+      "name": "Feather stride 16",
+      "category": "Physical",
+      "inheritance": "polygenic",
+      "mutationRate": 0.001,
+      "description": "A heritable physical genetic locus that influences stride expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_017",
+      "name": "Feather grip 17",
+      "category": "Physical",
+      "inheritance": "dominant",
+      "mutationRate": 0.003,
+      "description": "A heritable physical genetic locus that influences grip expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_018",
+      "name": "Feather lung 18",
+      "category": "Physical",
+      "inheritance": "recessive",
+      "mutationRate": 0.005,
+      "description": "A heritable physical genetic locus that influences lung expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_019",
+      "name": "Feather heart 19",
+      "category": "Physical",
+      "inheritance": "codominant",
+      "mutationRate": 0.01,
+      "description": "A heritable physical genetic locus that influences heart expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_020",
+      "name": "Feather sinew 20",
+      "category": "Physical",
+      "inheritance": "polygenic",
+      "mutationRate": 0.02,
+      "description": "A heritable physical genetic locus that influences sinew expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_021",
+      "name": "Iron frame 21",
+      "category": "Physical",
+      "inheritance": "dominant",
+      "mutationRate": 0.001,
+      "description": "A heritable physical genetic locus that influences frame expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_022",
+      "name": "Iron muscle 22",
+      "category": "Physical",
+      "inheritance": "recessive",
+      "mutationRate": 0.003,
+      "description": "A heritable physical genetic locus that influences muscle expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_023",
+      "name": "Iron bone 23",
+      "category": "Physical",
+      "inheritance": "codominant",
+      "mutationRate": 0.005,
+      "description": "A heritable physical genetic locus that influences bone expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_024",
+      "name": "Iron skin 24",
+      "category": "Physical",
+      "inheritance": "polygenic",
+      "mutationRate": 0.01,
+      "description": "A heritable physical genetic locus that influences skin expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_025",
+      "name": "Iron reflex 25",
+      "category": "Physical",
+      "inheritance": "dominant",
+      "mutationRate": 0.02,
+      "description": "A heritable physical genetic locus that influences reflex expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_026",
+      "name": "Elastic stride 26",
+      "category": "Physical",
+      "inheritance": "recessive",
+      "mutationRate": 0.001,
+      "description": "A heritable physical genetic locus that influences stride expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_027",
+      "name": "Elastic grip 27",
+      "category": "Physical",
+      "inheritance": "codominant",
+      "mutationRate": 0.003,
+      "description": "A heritable physical genetic locus that influences grip expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_028",
+      "name": "Elastic lung 28",
+      "category": "Physical",
+      "inheritance": "polygenic",
+      "mutationRate": 0.005,
+      "description": "A heritable physical genetic locus that influences lung expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_029",
+      "name": "Elastic heart 29",
+      "category": "Physical",
+      "inheritance": "dominant",
+      "mutationRate": 0.01,
+      "description": "A heritable physical genetic locus that influences heart expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_030",
+      "name": "Elastic sinew 30",
+      "category": "Physical",
+      "inheritance": "recessive",
+      "mutationRate": 0.02,
+      "description": "A heritable physical genetic locus that influences sinew expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_031",
+      "name": "Dense frame 31",
+      "category": "Physical",
+      "inheritance": "codominant",
+      "mutationRate": 0.001,
+      "description": "A heritable physical genetic locus that influences frame expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_032",
+      "name": "Dense muscle 32",
+      "category": "Physical",
+      "inheritance": "polygenic",
+      "mutationRate": 0.003,
+      "description": "A heritable physical genetic locus that influences muscle expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_033",
+      "name": "Dense bone 33",
+      "category": "Physical",
+      "inheritance": "dominant",
+      "mutationRate": 0.005,
+      "description": "A heritable physical genetic locus that influences bone expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_034",
+      "name": "Dense skin 34",
+      "category": "Physical",
+      "inheritance": "recessive",
+      "mutationRate": 0.01,
+      "description": "A heritable physical genetic locus that influences skin expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_035",
+      "name": "Dense reflex 35",
+      "category": "Physical",
+      "inheritance": "codominant",
+      "mutationRate": 0.02,
+      "description": "A heritable physical genetic locus that influences reflex expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_036",
+      "name": "Lithe stride 36",
+      "category": "Physical",
+      "inheritance": "polygenic",
+      "mutationRate": 0.001,
+      "description": "A heritable physical genetic locus that influences stride expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_037",
+      "name": "Lithe grip 37",
+      "category": "Physical",
+      "inheritance": "dominant",
+      "mutationRate": 0.003,
+      "description": "A heritable physical genetic locus that influences grip expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_038",
+      "name": "Lithe lung 38",
+      "category": "Physical",
+      "inheritance": "recessive",
+      "mutationRate": 0.005,
+      "description": "A heritable physical genetic locus that influences lung expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_039",
+      "name": "Lithe heart 39",
+      "category": "Physical",
+      "inheritance": "codominant",
+      "mutationRate": 0.01,
+      "description": "A heritable physical genetic locus that influences heart expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_040",
+      "name": "Lithe sinew 40",
+      "category": "Physical",
+      "inheritance": "polygenic",
+      "mutationRate": 0.02,
+      "description": "A heritable physical genetic locus that influences sinew expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_041",
+      "name": "Colossal frame 41",
+      "category": "Physical",
+      "inheritance": "dominant",
+      "mutationRate": 0.001,
+      "description": "A heritable physical genetic locus that influences frame expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_042",
+      "name": "Colossal muscle 42",
+      "category": "Physical",
+      "inheritance": "recessive",
+      "mutationRate": 0.003,
+      "description": "A heritable physical genetic locus that influences muscle expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_043",
+      "name": "Colossal bone 43",
+      "category": "Physical",
+      "inheritance": "codominant",
+      "mutationRate": 0.005,
+      "description": "A heritable physical genetic locus that influences bone expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_044",
+      "name": "Colossal skin 44",
+      "category": "Physical",
+      "inheritance": "polygenic",
+      "mutationRate": 0.01,
+      "description": "A heritable physical genetic locus that influences skin expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_045",
+      "name": "Colossal reflex 45",
+      "category": "Physical",
+      "inheritance": "dominant",
+      "mutationRate": 0.02,
+      "description": "A heritable physical genetic locus that influences reflex expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_046",
+      "name": "Agile stride 46",
+      "category": "Physical",
+      "inheritance": "recessive",
+      "mutationRate": 0.001,
+      "description": "A heritable physical genetic locus that influences stride expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_047",
+      "name": "Agile grip 47",
+      "category": "Physical",
+      "inheritance": "codominant",
+      "mutationRate": 0.003,
+      "description": "A heritable physical genetic locus that influences grip expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_048",
+      "name": "Agile lung 48",
+      "category": "Physical",
+      "inheritance": "polygenic",
+      "mutationRate": 0.005,
+      "description": "A heritable physical genetic locus that influences lung expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_049",
+      "name": "Agile heart 49",
+      "category": "Physical",
+      "inheritance": "dominant",
+      "mutationRate": 0.01,
+      "description": "A heritable physical genetic locus that influences heart expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_050",
+      "name": "Agile sinew 50",
+      "category": "Physical",
+      "inheritance": "recessive",
+      "mutationRate": 0.02,
+      "description": "A heritable physical genetic locus that influences sinew expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_051",
+      "name": "Ember affinity 01",
+      "category": "Elemental",
+      "inheritance": "dominant",
+      "mutationRate": 0.001,
+      "description": "A heritable elemental genetic locus that influences affinity expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_052",
+      "name": "Ember core 02",
+      "category": "Elemental",
+      "inheritance": "recessive",
+      "mutationRate": 0.003,
+      "description": "A heritable elemental genetic locus that influences core expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_053",
+      "name": "Ember vein 03",
+      "category": "Elemental",
+      "inheritance": "codominant",
+      "mutationRate": 0.005,
+      "description": "A heritable elemental genetic locus that influences vein expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_054",
+      "name": "Ember aura 04",
+      "category": "Elemental",
+      "inheritance": "polygenic",
+      "mutationRate": 0.01,
+      "description": "A heritable elemental genetic locus that influences aura expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_055",
+      "name": "Ember pulse 05",
+      "category": "Elemental",
+      "inheritance": "dominant",
+      "mutationRate": 0.02,
+      "description": "A heritable elemental genetic locus that influences pulse expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_056",
+      "name": "Frost shell 06",
+      "category": "Elemental",
+      "inheritance": "recessive",
+      "mutationRate": 0.001,
+      "description": "A heritable elemental genetic locus that influences shell expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_057",
+      "name": "Frost breath 07",
+      "category": "Elemental",
+      "inheritance": "codominant",
+      "mutationRate": 0.003,
+      "description": "A heritable elemental genetic locus that influences breath expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_058",
+      "name": "Frost spark 08",
+      "category": "Elemental",
+      "inheritance": "polygenic",
+      "mutationRate": 0.005,
+      "description": "A heritable elemental genetic locus that influences spark expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_059",
+      "name": "Frost ward 09",
+      "category": "Elemental",
+      "inheritance": "dominant",
+      "mutationRate": 0.01,
+      "description": "A heritable elemental genetic locus that influences ward expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_060",
+      "name": "Frost heart 10",
+      "category": "Elemental",
+      "inheritance": "recessive",
+      "mutationRate": 0.02,
+      "description": "A heritable elemental genetic locus that influences heart expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_061",
+      "name": "Storm affinity 11",
+      "category": "Elemental",
+      "inheritance": "codominant",
+      "mutationRate": 0.001,
+      "description": "A heritable elemental genetic locus that influences affinity expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_062",
+      "name": "Storm core 12",
+      "category": "Elemental",
+      "inheritance": "polygenic",
+      "mutationRate": 0.003,
+      "description": "A heritable elemental genetic locus that influences core expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_063",
+      "name": "Storm vein 13",
+      "category": "Elemental",
+      "inheritance": "dominant",
+      "mutationRate": 0.005,
+      "description": "A heritable elemental genetic locus that influences vein expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_064",
+      "name": "Storm aura 14",
+      "category": "Elemental",
+      "inheritance": "recessive",
+      "mutationRate": 0.01,
+      "description": "A heritable elemental genetic locus that influences aura expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_065",
+      "name": "Storm pulse 15",
+      "category": "Elemental",
+      "inheritance": "codominant",
+      "mutationRate": 0.02,
+      "description": "A heritable elemental genetic locus that influences pulse expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_066",
+      "name": "Tide shell 16",
+      "category": "Elemental",
+      "inheritance": "polygenic",
+      "mutationRate": 0.001,
+      "description": "A heritable elemental genetic locus that influences shell expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_067",
+      "name": "Tide breath 17",
+      "category": "Elemental",
+      "inheritance": "dominant",
+      "mutationRate": 0.003,
+      "description": "A heritable elemental genetic locus that influences breath expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_068",
+      "name": "Tide spark 18",
+      "category": "Elemental",
+      "inheritance": "recessive",
+      "mutationRate": 0.005,
+      "description": "A heritable elemental genetic locus that influences spark expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_069",
+      "name": "Tide ward 19",
+      "category": "Elemental",
+      "inheritance": "codominant",
+      "mutationRate": 0.01,
+      "description": "A heritable elemental genetic locus that influences ward expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_070",
+      "name": "Tide heart 20",
+      "category": "Elemental",
+      "inheritance": "polygenic",
+      "mutationRate": 0.02,
+      "description": "A heritable elemental genetic locus that influences heart expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_071",
+      "name": "Magma affinity 21",
+      "category": "Elemental",
+      "inheritance": "dominant",
+      "mutationRate": 0.001,
+      "description": "A heritable elemental genetic locus that influences affinity expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_072",
+      "name": "Magma core 22",
+      "category": "Elemental",
+      "inheritance": "recessive",
+      "mutationRate": 0.003,
+      "description": "A heritable elemental genetic locus that influences core expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_073",
+      "name": "Magma vein 23",
+      "category": "Elemental",
+      "inheritance": "codominant",
+      "mutationRate": 0.005,
+      "description": "A heritable elemental genetic locus that influences vein expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_074",
+      "name": "Magma aura 24",
+      "category": "Elemental",
+      "inheritance": "polygenic",
+      "mutationRate": 0.01,
+      "description": "A heritable elemental genetic locus that influences aura expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_075",
+      "name": "Magma pulse 25",
+      "category": "Elemental",
+      "inheritance": "dominant",
+      "mutationRate": 0.02,
+      "description": "A heritable elemental genetic locus that influences pulse expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_076",
+      "name": "Gale shell 26",
+      "category": "Elemental",
+      "inheritance": "recessive",
+      "mutationRate": 0.001,
+      "description": "A heritable elemental genetic locus that influences shell expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_077",
+      "name": "Gale breath 27",
+      "category": "Elemental",
+      "inheritance": "codominant",
+      "mutationRate": 0.003,
+      "description": "A heritable elemental genetic locus that influences breath expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_078",
+      "name": "Gale spark 28",
+      "category": "Elemental",
+      "inheritance": "polygenic",
+      "mutationRate": 0.005,
+      "description": "A heritable elemental genetic locus that influences spark expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_079",
+      "name": "Gale ward 29",
+      "category": "Elemental",
+      "inheritance": "dominant",
+      "mutationRate": 0.01,
+      "description": "A heritable elemental genetic locus that influences ward expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_080",
+      "name": "Gale heart 30",
+      "category": "Elemental",
+      "inheritance": "recessive",
+      "mutationRate": 0.02,
+      "description": "A heritable elemental genetic locus that influences heart expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_081",
+      "name": "Volt affinity 31",
+      "category": "Elemental",
+      "inheritance": "codominant",
+      "mutationRate": 0.001,
+      "description": "A heritable elemental genetic locus that influences affinity expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_082",
+      "name": "Volt core 32",
+      "category": "Elemental",
+      "inheritance": "polygenic",
+      "mutationRate": 0.003,
+      "description": "A heritable elemental genetic locus that influences core expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_083",
+      "name": "Volt vein 33",
+      "category": "Elemental",
+      "inheritance": "dominant",
+      "mutationRate": 0.005,
+      "description": "A heritable elemental genetic locus that influences vein expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_084",
+      "name": "Volt aura 34",
+      "category": "Elemental",
+      "inheritance": "recessive",
+      "mutationRate": 0.01,
+      "description": "A heritable elemental genetic locus that influences aura expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_085",
+      "name": "Volt pulse 35",
+      "category": "Elemental",
+      "inheritance": "codominant",
+      "mutationRate": 0.02,
+      "description": "A heritable elemental genetic locus that influences pulse expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_086",
+      "name": "Ash shell 36",
+      "category": "Elemental",
+      "inheritance": "polygenic",
+      "mutationRate": 0.001,
+      "description": "A heritable elemental genetic locus that influences shell expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_087",
+      "name": "Ash breath 37",
+      "category": "Elemental",
+      "inheritance": "dominant",
+      "mutationRate": 0.003,
+      "description": "A heritable elemental genetic locus that influences breath expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_088",
+      "name": "Ash spark 38",
+      "category": "Elemental",
+      "inheritance": "recessive",
+      "mutationRate": 0.005,
+      "description": "A heritable elemental genetic locus that influences spark expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_089",
+      "name": "Ash ward 39",
+      "category": "Elemental",
+      "inheritance": "codominant",
+      "mutationRate": 0.01,
+      "description": "A heritable elemental genetic locus that influences ward expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_090",
+      "name": "Ash heart 40",
+      "category": "Elemental",
+      "inheritance": "polygenic",
+      "mutationRate": 0.02,
+      "description": "A heritable elemental genetic locus that influences heart expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_091",
+      "name": "Crystal affinity 41",
+      "category": "Elemental",
+      "inheritance": "dominant",
+      "mutationRate": 0.001,
+      "description": "A heritable elemental genetic locus that influences affinity expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_092",
+      "name": "Crystal core 42",
+      "category": "Elemental",
+      "inheritance": "recessive",
+      "mutationRate": 0.003,
+      "description": "A heritable elemental genetic locus that influences core expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_093",
+      "name": "Crystal vein 43",
+      "category": "Elemental",
+      "inheritance": "codominant",
+      "mutationRate": 0.005,
+      "description": "A heritable elemental genetic locus that influences vein expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_094",
+      "name": "Crystal aura 44",
+      "category": "Elemental",
+      "inheritance": "polygenic",
+      "mutationRate": 0.01,
+      "description": "A heritable elemental genetic locus that influences aura expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_095",
+      "name": "Crystal pulse 45",
+      "category": "Elemental",
+      "inheritance": "dominant",
+      "mutationRate": 0.02,
+      "description": "A heritable elemental genetic locus that influences pulse expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_096",
+      "name": "Solar shell 46",
+      "category": "Elemental",
+      "inheritance": "recessive",
+      "mutationRate": 0.001,
+      "description": "A heritable elemental genetic locus that influences shell expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_097",
+      "name": "Solar breath 47",
+      "category": "Elemental",
+      "inheritance": "codominant",
+      "mutationRate": 0.003,
+      "description": "A heritable elemental genetic locus that influences breath expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_098",
+      "name": "Solar spark 48",
+      "category": "Elemental",
+      "inheritance": "polygenic",
+      "mutationRate": 0.005,
+      "description": "A heritable elemental genetic locus that influences spark expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_099",
+      "name": "Solar ward 49",
+      "category": "Elemental",
+      "inheritance": "dominant",
+      "mutationRate": 0.01,
+      "description": "A heritable elemental genetic locus that influences ward expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_100",
+      "name": "Solar heart 50",
+      "category": "Elemental",
+      "inheritance": "recessive",
+      "mutationRate": 0.02,
+      "description": "A heritable elemental genetic locus that influences heart expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_101",
+      "name": "Astral channel 01",
+      "category": "Arcane",
+      "inheritance": "dominant",
+      "mutationRate": 0.001,
+      "description": "A heritable arcane genetic locus that influences channel expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_102",
+      "name": "Astral sigil 02",
+      "category": "Arcane",
+      "inheritance": "recessive",
+      "mutationRate": 0.003,
+      "description": "A heritable arcane genetic locus that influences sigil expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_103",
+      "name": "Astral mind 03",
+      "category": "Arcane",
+      "inheritance": "codominant",
+      "mutationRate": 0.005,
+      "description": "A heritable arcane genetic locus that influences mind expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_104",
+      "name": "Astral soul 04",
+      "category": "Arcane",
+      "inheritance": "polygenic",
+      "mutationRate": 0.01,
+      "description": "A heritable arcane genetic locus that influences soul expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_105",
+      "name": "Astral reservoir 05",
+      "category": "Arcane",
+      "inheritance": "dominant",
+      "mutationRate": 0.02,
+      "description": "A heritable arcane genetic locus that influences reservoir expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_106",
+      "name": "Runic sense 06",
+      "category": "Arcane",
+      "inheritance": "recessive",
+      "mutationRate": 0.001,
+      "description": "A heritable arcane genetic locus that influences sense expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_107",
+      "name": "Runic weave 07",
+      "category": "Arcane",
+      "inheritance": "codominant",
+      "mutationRate": 0.003,
+      "description": "A heritable arcane genetic locus that influences weave expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_108",
+      "name": "Runic focus 08",
+      "category": "Arcane",
+      "inheritance": "polygenic",
+      "mutationRate": 0.005,
+      "description": "A heritable arcane genetic locus that influences focus expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_109",
+      "name": "Runic echo 09",
+      "category": "Arcane",
+      "inheritance": "dominant",
+      "mutationRate": 0.01,
+      "description": "A heritable arcane genetic locus that influences echo expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_110",
+      "name": "Runic mark 10",
+      "category": "Arcane",
+      "inheritance": "recessive",
+      "mutationRate": 0.02,
+      "description": "A heritable arcane genetic locus that influences mark expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_111",
+      "name": "Void channel 11",
+      "category": "Arcane",
+      "inheritance": "codominant",
+      "mutationRate": 0.001,
+      "description": "A heritable arcane genetic locus that influences channel expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_112",
+      "name": "Void sigil 12",
+      "category": "Arcane",
+      "inheritance": "polygenic",
+      "mutationRate": 0.003,
+      "description": "A heritable arcane genetic locus that influences sigil expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_113",
+      "name": "Void mind 13",
+      "category": "Arcane",
+      "inheritance": "dominant",
+      "mutationRate": 0.005,
+      "description": "A heritable arcane genetic locus that influences mind expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_114",
+      "name": "Void soul 14",
+      "category": "Arcane",
+      "inheritance": "recessive",
+      "mutationRate": 0.01,
+      "description": "A heritable arcane genetic locus that influences soul expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_115",
+      "name": "Void reservoir 15",
+      "category": "Arcane",
+      "inheritance": "codominant",
+      "mutationRate": 0.02,
+      "description": "A heritable arcane genetic locus that influences reservoir expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_116",
+      "name": "Lunar sense 16",
+      "category": "Arcane",
+      "inheritance": "polygenic",
+      "mutationRate": 0.001,
+      "description": "A heritable arcane genetic locus that influences sense expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_117",
+      "name": "Lunar weave 17",
+      "category": "Arcane",
+      "inheritance": "dominant",
+      "mutationRate": 0.003,
+      "description": "A heritable arcane genetic locus that influences weave expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_118",
+      "name": "Lunar focus 18",
+      "category": "Arcane",
+      "inheritance": "recessive",
+      "mutationRate": 0.005,
+      "description": "A heritable arcane genetic locus that influences focus expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_119",
+      "name": "Lunar echo 19",
+      "category": "Arcane",
+      "inheritance": "codominant",
+      "mutationRate": 0.01,
+      "description": "A heritable arcane genetic locus that influences echo expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_120",
+      "name": "Lunar mark 20",
+      "category": "Arcane",
+      "inheritance": "polygenic",
+      "mutationRate": 0.02,
+      "description": "A heritable arcane genetic locus that influences mark expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_121",
+      "name": "Celestial channel 21",
+      "category": "Arcane",
+      "inheritance": "dominant",
+      "mutationRate": 0.001,
+      "description": "A heritable arcane genetic locus that influences channel expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_122",
+      "name": "Celestial sigil 22",
+      "category": "Arcane",
+      "inheritance": "recessive",
+      "mutationRate": 0.003,
+      "description": "A heritable arcane genetic locus that influences sigil expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_123",
+      "name": "Celestial mind 23",
+      "category": "Arcane",
+      "inheritance": "codominant",
+      "mutationRate": 0.005,
+      "description": "A heritable arcane genetic locus that influences mind expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_124",
+      "name": "Celestial soul 24",
+      "category": "Arcane",
+      "inheritance": "polygenic",
+      "mutationRate": 0.01,
+      "description": "A heritable arcane genetic locus that influences soul expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_125",
+      "name": "Celestial reservoir 25",
+      "category": "Arcane",
+      "inheritance": "dominant",
+      "mutationRate": 0.02,
+      "description": "A heritable arcane genetic locus that influences reservoir expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_126",
+      "name": "Ethereal sense 26",
+      "category": "Arcane",
+      "inheritance": "recessive",
+      "mutationRate": 0.001,
+      "description": "A heritable arcane genetic locus that influences sense expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_127",
+      "name": "Ethereal weave 27",
+      "category": "Arcane",
+      "inheritance": "codominant",
+      "mutationRate": 0.003,
+      "description": "A heritable arcane genetic locus that influences weave expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_128",
+      "name": "Ethereal focus 28",
+      "category": "Arcane",
+      "inheritance": "polygenic",
+      "mutationRate": 0.005,
+      "description": "A heritable arcane genetic locus that influences focus expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_129",
+      "name": "Ethereal echo 29",
+      "category": "Arcane",
+      "inheritance": "dominant",
+      "mutationRate": 0.01,
+      "description": "A heritable arcane genetic locus that influences echo expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_130",
+      "name": "Ethereal mark 30",
+      "category": "Arcane",
+      "inheritance": "recessive",
+      "mutationRate": 0.02,
+      "description": "A heritable arcane genetic locus that influences mark expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_131",
+      "name": "Mystic channel 31",
+      "category": "Arcane",
+      "inheritance": "codominant",
+      "mutationRate": 0.001,
+      "description": "A heritable arcane genetic locus that influences channel expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_132",
+      "name": "Mystic sigil 32",
+      "category": "Arcane",
+      "inheritance": "polygenic",
+      "mutationRate": 0.003,
+      "description": "A heritable arcane genetic locus that influences sigil expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_133",
+      "name": "Mystic mind 33",
+      "category": "Arcane",
+      "inheritance": "dominant",
+      "mutationRate": 0.005,
+      "description": "A heritable arcane genetic locus that influences mind expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_134",
+      "name": "Mystic soul 34",
+      "category": "Arcane",
+      "inheritance": "recessive",
+      "mutationRate": 0.01,
+      "description": "A heritable arcane genetic locus that influences soul expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_135",
+      "name": "Mystic reservoir 35",
+      "category": "Arcane",
+      "inheritance": "codominant",
+      "mutationRate": 0.02,
+      "description": "A heritable arcane genetic locus that influences reservoir expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_136",
+      "name": "Chrono sense 36",
+      "category": "Arcane",
+      "inheritance": "polygenic",
+      "mutationRate": 0.001,
+      "description": "A heritable arcane genetic locus that influences sense expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_137",
+      "name": "Chrono weave 37",
+      "category": "Arcane",
+      "inheritance": "dominant",
+      "mutationRate": 0.003,
+      "description": "A heritable arcane genetic locus that influences weave expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_138",
+      "name": "Chrono focus 38",
+      "category": "Arcane",
+      "inheritance": "recessive",
+      "mutationRate": 0.005,
+      "description": "A heritable arcane genetic locus that influences focus expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_139",
+      "name": "Chrono echo 39",
+      "category": "Arcane",
+      "inheritance": "codominant",
+      "mutationRate": 0.01,
+      "description": "A heritable arcane genetic locus that influences echo expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_140",
+      "name": "Chrono mark 40",
+      "category": "Arcane",
+      "inheritance": "polygenic",
+      "mutationRate": 0.02,
+      "description": "A heritable arcane genetic locus that influences mark expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_141",
+      "name": "Dream channel 41",
+      "category": "Arcane",
+      "inheritance": "dominant",
+      "mutationRate": 0.001,
+      "description": "A heritable arcane genetic locus that influences channel expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_142",
+      "name": "Dream sigil 42",
+      "category": "Arcane",
+      "inheritance": "recessive",
+      "mutationRate": 0.003,
+      "description": "A heritable arcane genetic locus that influences sigil expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_143",
+      "name": "Dream mind 43",
+      "category": "Arcane",
+      "inheritance": "codominant",
+      "mutationRate": 0.005,
+      "description": "A heritable arcane genetic locus that influences mind expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_144",
+      "name": "Dream soul 44",
+      "category": "Arcane",
+      "inheritance": "polygenic",
+      "mutationRate": 0.01,
+      "description": "A heritable arcane genetic locus that influences soul expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_145",
+      "name": "Dream reservoir 45",
+      "category": "Arcane",
+      "inheritance": "dominant",
+      "mutationRate": 0.02,
+      "description": "A heritable arcane genetic locus that influences reservoir expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_146",
+      "name": "Aether sense 46",
+      "category": "Arcane",
+      "inheritance": "recessive",
+      "mutationRate": 0.001,
+      "description": "A heritable arcane genetic locus that influences sense expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_147",
+      "name": "Aether weave 47",
+      "category": "Arcane",
+      "inheritance": "codominant",
+      "mutationRate": 0.003,
+      "description": "A heritable arcane genetic locus that influences weave expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_148",
+      "name": "Aether focus 48",
+      "category": "Arcane",
+      "inheritance": "polygenic",
+      "mutationRate": 0.005,
+      "description": "A heritable arcane genetic locus that influences focus expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_149",
+      "name": "Aether echo 49",
+      "category": "Arcane",
+      "inheritance": "dominant",
+      "mutationRate": 0.01,
+      "description": "A heritable arcane genetic locus that influences echo expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_150",
+      "name": "Aether mark 50",
+      "category": "Arcane",
+      "inheritance": "recessive",
+      "mutationRate": 0.02,
+      "description": "A heritable arcane genetic locus that influences mark expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_151",
+      "name": "Berserker instinct 01",
+      "category": "Combat",
+      "inheritance": "dominant",
+      "mutationRate": 0.001,
+      "description": "A heritable combat genetic locus that influences instinct expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_152",
+      "name": "Berserker stance 02",
+      "category": "Combat",
+      "inheritance": "recessive",
+      "mutationRate": 0.003,
+      "description": "A heritable combat genetic locus that influences stance expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_153",
+      "name": "Berserker aim 03",
+      "category": "Combat",
+      "inheritance": "codominant",
+      "mutationRate": 0.005,
+      "description": "A heritable combat genetic locus that influences aim expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_154",
+      "name": "Berserker guard 04",
+      "category": "Combat",
+      "inheritance": "polygenic",
+      "mutationRate": 0.01,
+      "description": "A heritable combat genetic locus that influences guard expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_155",
+      "name": "Berserker strike 05",
+      "category": "Combat",
+      "inheritance": "dominant",
+      "mutationRate": 0.02,
+      "description": "A heritable combat genetic locus that influences strike expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_156",
+      "name": "Sentinel grit 06",
+      "category": "Combat",
+      "inheritance": "recessive",
+      "mutationRate": 0.001,
+      "description": "A heritable combat genetic locus that influences grit expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_157",
+      "name": "Sentinel tempo 07",
+      "category": "Combat",
+      "inheritance": "codominant",
+      "mutationRate": 0.003,
+      "description": "A heritable combat genetic locus that influences tempo expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_158",
+      "name": "Sentinel counter 08",
+      "category": "Combat",
+      "inheritance": "polygenic",
+      "mutationRate": 0.005,
+      "description": "A heritable combat genetic locus that influences counter expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_159",
+      "name": "Sentinel will 09",
+      "category": "Combat",
+      "inheritance": "dominant",
+      "mutationRate": 0.01,
+      "description": "A heritable combat genetic locus that influences will expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_160",
+      "name": "Sentinel edge 10",
+      "category": "Combat",
+      "inheritance": "recessive",
+      "mutationRate": 0.02,
+      "description": "A heritable combat genetic locus that influences edge expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_161",
+      "name": "Duelist instinct 11",
+      "category": "Combat",
+      "inheritance": "codominant",
+      "mutationRate": 0.001,
+      "description": "A heritable combat genetic locus that influences instinct expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_162",
+      "name": "Duelist stance 12",
+      "category": "Combat",
+      "inheritance": "polygenic",
+      "mutationRate": 0.003,
+      "description": "A heritable combat genetic locus that influences stance expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_163",
+      "name": "Duelist aim 13",
+      "category": "Combat",
+      "inheritance": "dominant",
+      "mutationRate": 0.005,
+      "description": "A heritable combat genetic locus that influences aim expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_164",
+      "name": "Duelist guard 14",
+      "category": "Combat",
+      "inheritance": "recessive",
+      "mutationRate": 0.01,
+      "description": "A heritable combat genetic locus that influences guard expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_165",
+      "name": "Duelist strike 15",
+      "category": "Combat",
+      "inheritance": "codominant",
+      "mutationRate": 0.02,
+      "description": "A heritable combat genetic locus that influences strike expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_166",
+      "name": "Predator grit 16",
+      "category": "Combat",
+      "inheritance": "polygenic",
+      "mutationRate": 0.001,
+      "description": "A heritable combat genetic locus that influences grit expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_167",
+      "name": "Predator tempo 17",
+      "category": "Combat",
+      "inheritance": "dominant",
+      "mutationRate": 0.003,
+      "description": "A heritable combat genetic locus that influences tempo expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_168",
+      "name": "Predator counter 18",
+      "category": "Combat",
+      "inheritance": "recessive",
+      "mutationRate": 0.005,
+      "description": "A heritable combat genetic locus that influences counter expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_169",
+      "name": "Predator will 19",
+      "category": "Combat",
+      "inheritance": "codominant",
+      "mutationRate": 0.01,
+      "description": "A heritable combat genetic locus that influences will expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_170",
+      "name": "Predator edge 20",
+      "category": "Combat",
+      "inheritance": "polygenic",
+      "mutationRate": 0.02,
+      "description": "A heritable combat genetic locus that influences edge expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_171",
+      "name": "Warden instinct 21",
+      "category": "Combat",
+      "inheritance": "dominant",
+      "mutationRate": 0.001,
+      "description": "A heritable combat genetic locus that influences instinct expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_172",
+      "name": "Warden stance 22",
+      "category": "Combat",
+      "inheritance": "recessive",
+      "mutationRate": 0.003,
+      "description": "A heritable combat genetic locus that influences stance expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_173",
+      "name": "Warden aim 23",
+      "category": "Combat",
+      "inheritance": "codominant",
+      "mutationRate": 0.005,
+      "description": "A heritable combat genetic locus that influences aim expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_174",
+      "name": "Warden guard 24",
+      "category": "Combat",
+      "inheritance": "polygenic",
+      "mutationRate": 0.01,
+      "description": "A heritable combat genetic locus that influences guard expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_175",
+      "name": "Warden strike 25",
+      "category": "Combat",
+      "inheritance": "dominant",
+      "mutationRate": 0.02,
+      "description": "A heritable combat genetic locus that influences strike expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_176",
+      "name": "Raider grit 26",
+      "category": "Combat",
+      "inheritance": "recessive",
+      "mutationRate": 0.001,
+      "description": "A heritable combat genetic locus that influences grit expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_177",
+      "name": "Raider tempo 27",
+      "category": "Combat",
+      "inheritance": "codominant",
+      "mutationRate": 0.003,
+      "description": "A heritable combat genetic locus that influences tempo expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_178",
+      "name": "Raider counter 28",
+      "category": "Combat",
+      "inheritance": "polygenic",
+      "mutationRate": 0.005,
+      "description": "A heritable combat genetic locus that influences counter expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_179",
+      "name": "Raider will 29",
+      "category": "Combat",
+      "inheritance": "dominant",
+      "mutationRate": 0.01,
+      "description": "A heritable combat genetic locus that influences will expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_180",
+      "name": "Raider edge 30",
+      "category": "Combat",
+      "inheritance": "recessive",
+      "mutationRate": 0.02,
+      "description": "A heritable combat genetic locus that influences edge expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_181",
+      "name": "Vanguard instinct 31",
+      "category": "Combat",
+      "inheritance": "codominant",
+      "mutationRate": 0.001,
+      "description": "A heritable combat genetic locus that influences instinct expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_182",
+      "name": "Vanguard stance 32",
+      "category": "Combat",
+      "inheritance": "polygenic",
+      "mutationRate": 0.003,
+      "description": "A heritable combat genetic locus that influences stance expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_183",
+      "name": "Vanguard aim 33",
+      "category": "Combat",
+      "inheritance": "dominant",
+      "mutationRate": 0.005,
+      "description": "A heritable combat genetic locus that influences aim expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_184",
+      "name": "Vanguard guard 34",
+      "category": "Combat",
+      "inheritance": "recessive",
+      "mutationRate": 0.01,
+      "description": "A heritable combat genetic locus that influences guard expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_185",
+      "name": "Vanguard strike 35",
+      "category": "Combat",
+      "inheritance": "codominant",
+      "mutationRate": 0.02,
+      "description": "A heritable combat genetic locus that influences strike expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_186",
+      "name": "Phantom grit 36",
+      "category": "Combat",
+      "inheritance": "polygenic",
+      "mutationRate": 0.001,
+      "description": "A heritable combat genetic locus that influences grit expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_187",
+      "name": "Phantom tempo 37",
+      "category": "Combat",
+      "inheritance": "dominant",
+      "mutationRate": 0.003,
+      "description": "A heritable combat genetic locus that influences tempo expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_188",
+      "name": "Phantom counter 38",
+      "category": "Combat",
+      "inheritance": "recessive",
+      "mutationRate": 0.005,
+      "description": "A heritable combat genetic locus that influences counter expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_189",
+      "name": "Phantom will 39",
+      "category": "Combat",
+      "inheritance": "codominant",
+      "mutationRate": 0.01,
+      "description": "A heritable combat genetic locus that influences will expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_190",
+      "name": "Phantom edge 40",
+      "category": "Combat",
+      "inheritance": "polygenic",
+      "mutationRate": 0.02,
+      "description": "A heritable combat genetic locus that influences edge expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_191",
+      "name": "Hunter instinct 41",
+      "category": "Combat",
+      "inheritance": "dominant",
+      "mutationRate": 0.001,
+      "description": "A heritable combat genetic locus that influences instinct expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_192",
+      "name": "Hunter stance 42",
+      "category": "Combat",
+      "inheritance": "recessive",
+      "mutationRate": 0.003,
+      "description": "A heritable combat genetic locus that influences stance expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_193",
+      "name": "Hunter aim 43",
+      "category": "Combat",
+      "inheritance": "codominant",
+      "mutationRate": 0.005,
+      "description": "A heritable combat genetic locus that influences aim expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_194",
+      "name": "Hunter guard 44",
+      "category": "Combat",
+      "inheritance": "polygenic",
+      "mutationRate": 0.01,
+      "description": "A heritable combat genetic locus that influences guard expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_195",
+      "name": "Hunter strike 45",
+      "category": "Combat",
+      "inheritance": "dominant",
+      "mutationRate": 0.02,
+      "description": "A heritable combat genetic locus that influences strike expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_196",
+      "name": "Gladiator grit 46",
+      "category": "Combat",
+      "inheritance": "recessive",
+      "mutationRate": 0.001,
+      "description": "A heritable combat genetic locus that influences grit expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_197",
+      "name": "Gladiator tempo 47",
+      "category": "Combat",
+      "inheritance": "codominant",
+      "mutationRate": 0.003,
+      "description": "A heritable combat genetic locus that influences tempo expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_198",
+      "name": "Gladiator counter 48",
+      "category": "Combat",
+      "inheritance": "polygenic",
+      "mutationRate": 0.005,
+      "description": "A heritable combat genetic locus that influences counter expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_199",
+      "name": "Gladiator will 49",
+      "category": "Combat",
+      "inheritance": "dominant",
+      "mutationRate": 0.01,
+      "description": "A heritable combat genetic locus that influences will expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_200",
+      "name": "Gladiator edge 50",
+      "category": "Combat",
+      "inheritance": "recessive",
+      "mutationRate": 0.02,
+      "description": "A heritable combat genetic locus that influences edge expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_201",
+      "name": "Desert adaptation 01",
+      "category": "Survival",
+      "inheritance": "dominant",
+      "mutationRate": 0.001,
+      "description": "A heritable survival genetic locus that influences adaptation expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_202",
+      "name": "Desert metabolism 02",
+      "category": "Survival",
+      "inheritance": "recessive",
+      "mutationRate": 0.003,
+      "description": "A heritable survival genetic locus that influences metabolism expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_203",
+      "name": "Desert resilience 03",
+      "category": "Survival",
+      "inheritance": "codominant",
+      "mutationRate": 0.005,
+      "description": "A heritable survival genetic locus that influences resilience expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_204",
+      "name": "Desert camouflage 04",
+      "category": "Survival",
+      "inheritance": "polygenic",
+      "mutationRate": 0.01,
+      "description": "A heritable survival genetic locus that influences camouflage expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_205",
+      "name": "Desert thirst 05",
+      "category": "Survival",
+      "inheritance": "dominant",
+      "mutationRate": 0.02,
+      "description": "A heritable survival genetic locus that influences thirst expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_206",
+      "name": "Tundra tolerance 06",
+      "category": "Survival",
+      "inheritance": "recessive",
+      "mutationRate": 0.001,
+      "description": "A heritable survival genetic locus that influences tolerance expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_207",
+      "name": "Tundra recovery 07",
+      "category": "Survival",
+      "inheritance": "codominant",
+      "mutationRate": 0.003,
+      "description": "A heritable survival genetic locus that influences recovery expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_208",
+      "name": "Tundra senses 08",
+      "category": "Survival",
+      "inheritance": "polygenic",
+      "mutationRate": 0.005,
+      "description": "A heritable survival genetic locus that influences senses expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_209",
+      "name": "Tundra endurance 09",
+      "category": "Survival",
+      "inheritance": "dominant",
+      "mutationRate": 0.01,
+      "description": "A heritable survival genetic locus that influences endurance expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_210",
+      "name": "Tundra resistance 10",
+      "category": "Survival",
+      "inheritance": "recessive",
+      "mutationRate": 0.02,
+      "description": "A heritable survival genetic locus that influences resistance expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_211",
+      "name": "Abyssal adaptation 11",
+      "category": "Survival",
+      "inheritance": "codominant",
+      "mutationRate": 0.001,
+      "description": "A heritable survival genetic locus that influences adaptation expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_212",
+      "name": "Abyssal metabolism 12",
+      "category": "Survival",
+      "inheritance": "polygenic",
+      "mutationRate": 0.003,
+      "description": "A heritable survival genetic locus that influences metabolism expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_213",
+      "name": "Abyssal resilience 13",
+      "category": "Survival",
+      "inheritance": "dominant",
+      "mutationRate": 0.005,
+      "description": "A heritable survival genetic locus that influences resilience expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_214",
+      "name": "Abyssal camouflage 14",
+      "category": "Survival",
+      "inheritance": "recessive",
+      "mutationRate": 0.01,
+      "description": "A heritable survival genetic locus that influences camouflage expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_215",
+      "name": "Abyssal thirst 15",
+      "category": "Survival",
+      "inheritance": "codominant",
+      "mutationRate": 0.02,
+      "description": "A heritable survival genetic locus that influences thirst expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_216",
+      "name": "Jungle tolerance 16",
+      "category": "Survival",
+      "inheritance": "polygenic",
+      "mutationRate": 0.001,
+      "description": "A heritable survival genetic locus that influences tolerance expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_217",
+      "name": "Jungle recovery 17",
+      "category": "Survival",
+      "inheritance": "dominant",
+      "mutationRate": 0.003,
+      "description": "A heritable survival genetic locus that influences recovery expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_218",
+      "name": "Jungle senses 18",
+      "category": "Survival",
+      "inheritance": "recessive",
+      "mutationRate": 0.005,
+      "description": "A heritable survival genetic locus that influences senses expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_219",
+      "name": "Jungle endurance 19",
+      "category": "Survival",
+      "inheritance": "codominant",
+      "mutationRate": 0.01,
+      "description": "A heritable survival genetic locus that influences endurance expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_220",
+      "name": "Jungle resistance 20",
+      "category": "Survival",
+      "inheritance": "polygenic",
+      "mutationRate": 0.02,
+      "description": "A heritable survival genetic locus that influences resistance expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_221",
+      "name": "Mountain adaptation 21",
+      "category": "Survival",
+      "inheritance": "dominant",
+      "mutationRate": 0.001,
+      "description": "A heritable survival genetic locus that influences adaptation expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_222",
+      "name": "Mountain metabolism 22",
+      "category": "Survival",
+      "inheritance": "recessive",
+      "mutationRate": 0.003,
+      "description": "A heritable survival genetic locus that influences metabolism expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_223",
+      "name": "Mountain resilience 23",
+      "category": "Survival",
+      "inheritance": "codominant",
+      "mutationRate": 0.005,
+      "description": "A heritable survival genetic locus that influences resilience expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_224",
+      "name": "Mountain camouflage 24",
+      "category": "Survival",
+      "inheritance": "polygenic",
+      "mutationRate": 0.01,
+      "description": "A heritable survival genetic locus that influences camouflage expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_225",
+      "name": "Mountain thirst 25",
+      "category": "Survival",
+      "inheritance": "dominant",
+      "mutationRate": 0.02,
+      "description": "A heritable survival genetic locus that influences thirst expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_226",
+      "name": "Marsh tolerance 26",
+      "category": "Survival",
+      "inheritance": "recessive",
+      "mutationRate": 0.001,
+      "description": "A heritable survival genetic locus that influences tolerance expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_227",
+      "name": "Marsh recovery 27",
+      "category": "Survival",
+      "inheritance": "codominant",
+      "mutationRate": 0.003,
+      "description": "A heritable survival genetic locus that influences recovery expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_228",
+      "name": "Marsh senses 28",
+      "category": "Survival",
+      "inheritance": "polygenic",
+      "mutationRate": 0.005,
+      "description": "A heritable survival genetic locus that influences senses expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_229",
+      "name": "Marsh endurance 29",
+      "category": "Survival",
+      "inheritance": "dominant",
+      "mutationRate": 0.01,
+      "description": "A heritable survival genetic locus that influences endurance expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_230",
+      "name": "Marsh resistance 30",
+      "category": "Survival",
+      "inheritance": "recessive",
+      "mutationRate": 0.02,
+      "description": "A heritable survival genetic locus that influences resistance expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_231",
+      "name": "Cavern adaptation 31",
+      "category": "Survival",
+      "inheritance": "codominant",
+      "mutationRate": 0.001,
+      "description": "A heritable survival genetic locus that influences adaptation expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_232",
+      "name": "Cavern metabolism 32",
+      "category": "Survival",
+      "inheritance": "polygenic",
+      "mutationRate": 0.003,
+      "description": "A heritable survival genetic locus that influences metabolism expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_233",
+      "name": "Cavern resilience 33",
+      "category": "Survival",
+      "inheritance": "dominant",
+      "mutationRate": 0.005,
+      "description": "A heritable survival genetic locus that influences resilience expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_234",
+      "name": "Cavern camouflage 34",
+      "category": "Survival",
+      "inheritance": "recessive",
+      "mutationRate": 0.01,
+      "description": "A heritable survival genetic locus that influences camouflage expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_235",
+      "name": "Cavern thirst 35",
+      "category": "Survival",
+      "inheritance": "codominant",
+      "mutationRate": 0.02,
+      "description": "A heritable survival genetic locus that influences thirst expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_236",
+      "name": "Nomad tolerance 36",
+      "category": "Survival",
+      "inheritance": "polygenic",
+      "mutationRate": 0.001,
+      "description": "A heritable survival genetic locus that influences tolerance expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_237",
+      "name": "Nomad recovery 37",
+      "category": "Survival",
+      "inheritance": "dominant",
+      "mutationRate": 0.003,
+      "description": "A heritable survival genetic locus that influences recovery expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_238",
+      "name": "Nomad senses 38",
+      "category": "Survival",
+      "inheritance": "recessive",
+      "mutationRate": 0.005,
+      "description": "A heritable survival genetic locus that influences senses expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_239",
+      "name": "Nomad endurance 39",
+      "category": "Survival",
+      "inheritance": "codominant",
+      "mutationRate": 0.01,
+      "description": "A heritable survival genetic locus that influences endurance expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_240",
+      "name": "Nomad resistance 40",
+      "category": "Survival",
+      "inheritance": "polygenic",
+      "mutationRate": 0.02,
+      "description": "A heritable survival genetic locus that influences resistance expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_241",
+      "name": "Dusk adaptation 41",
+      "category": "Survival",
+      "inheritance": "dominant",
+      "mutationRate": 0.001,
+      "description": "A heritable survival genetic locus that influences adaptation expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_242",
+      "name": "Dusk metabolism 42",
+      "category": "Survival",
+      "inheritance": "recessive",
+      "mutationRate": 0.003,
+      "description": "A heritable survival genetic locus that influences metabolism expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_243",
+      "name": "Dusk resilience 43",
+      "category": "Survival",
+      "inheritance": "codominant",
+      "mutationRate": 0.005,
+      "description": "A heritable survival genetic locus that influences resilience expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_244",
+      "name": "Dusk camouflage 44",
+      "category": "Survival",
+      "inheritance": "polygenic",
+      "mutationRate": 0.01,
+      "description": "A heritable survival genetic locus that influences camouflage expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_245",
+      "name": "Dusk thirst 45",
+      "category": "Survival",
+      "inheritance": "dominant",
+      "mutationRate": 0.02,
+      "description": "A heritable survival genetic locus that influences thirst expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_246",
+      "name": "Dawn tolerance 46",
+      "category": "Survival",
+      "inheritance": "recessive",
+      "mutationRate": 0.001,
+      "description": "A heritable survival genetic locus that influences tolerance expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_247",
+      "name": "Dawn recovery 47",
+      "category": "Survival",
+      "inheritance": "codominant",
+      "mutationRate": 0.003,
+      "description": "A heritable survival genetic locus that influences recovery expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_248",
+      "name": "Dawn senses 48",
+      "category": "Survival",
+      "inheritance": "polygenic",
+      "mutationRate": 0.005,
+      "description": "A heritable survival genetic locus that influences senses expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_249",
+      "name": "Dawn endurance 49",
+      "category": "Survival",
+      "inheritance": "dominant",
+      "mutationRate": 0.01,
+      "description": "A heritable survival genetic locus that influences endurance expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_250",
+      "name": "Dawn resistance 50",
+      "category": "Survival",
+      "inheritance": "recessive",
+      "mutationRate": 0.02,
+      "description": "A heritable survival genetic locus that influences resistance expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_251",
+      "name": "Genius memory 01",
+      "category": "Mind",
+      "inheritance": "dominant",
+      "mutationRate": 0.001,
+      "description": "A heritable mind genetic locus that influences memory expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_252",
+      "name": "Genius reason 02",
+      "category": "Mind",
+      "inheritance": "recessive",
+      "mutationRate": 0.003,
+      "description": "A heritable mind genetic locus that influences reason expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_253",
+      "name": "Genius intuition 03",
+      "category": "Mind",
+      "inheritance": "codominant",
+      "mutationRate": 0.005,
+      "description": "A heritable mind genetic locus that influences intuition expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_254",
+      "name": "Genius learning 04",
+      "category": "Mind",
+      "inheritance": "polygenic",
+      "mutationRate": 0.01,
+      "description": "A heritable mind genetic locus that influences learning expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_255",
+      "name": "Genius creativity 05",
+      "category": "Mind",
+      "inheritance": "dominant",
+      "mutationRate": 0.02,
+      "description": "A heritable mind genetic locus that influences creativity expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_256",
+      "name": "Tactical awareness 06",
+      "category": "Mind",
+      "inheritance": "recessive",
+      "mutationRate": 0.001,
+      "description": "A heritable mind genetic locus that influences awareness expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_257",
+      "name": "Tactical discipline 07",
+      "category": "Mind",
+      "inheritance": "codominant",
+      "mutationRate": 0.003,
+      "description": "A heritable mind genetic locus that influences discipline expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_258",
+      "name": "Tactical language 08",
+      "category": "Mind",
+      "inheritance": "polygenic",
+      "mutationRate": 0.005,
+      "description": "A heritable mind genetic locus that influences language expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_259",
+      "name": "Tactical planning 09",
+      "category": "Mind",
+      "inheritance": "dominant",
+      "mutationRate": 0.01,
+      "description": "A heritable mind genetic locus that influences planning expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_260",
+      "name": "Tactical perception 10",
+      "category": "Mind",
+      "inheritance": "recessive",
+      "mutationRate": 0.02,
+      "description": "A heritable mind genetic locus that influences perception expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_261",
+      "name": "Empathic memory 11",
+      "category": "Mind",
+      "inheritance": "codominant",
+      "mutationRate": 0.001,
+      "description": "A heritable mind genetic locus that influences memory expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_262",
+      "name": "Empathic reason 12",
+      "category": "Mind",
+      "inheritance": "polygenic",
+      "mutationRate": 0.003,
+      "description": "A heritable mind genetic locus that influences reason expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_263",
+      "name": "Empathic intuition 13",
+      "category": "Mind",
+      "inheritance": "dominant",
+      "mutationRate": 0.005,
+      "description": "A heritable mind genetic locus that influences intuition expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_264",
+      "name": "Empathic learning 14",
+      "category": "Mind",
+      "inheritance": "recessive",
+      "mutationRate": 0.01,
+      "description": "A heritable mind genetic locus that influences learning expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_265",
+      "name": "Empathic creativity 15",
+      "category": "Mind",
+      "inheritance": "codominant",
+      "mutationRate": 0.02,
+      "description": "A heritable mind genetic locus that influences creativity expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_266",
+      "name": "Focused awareness 16",
+      "category": "Mind",
+      "inheritance": "polygenic",
+      "mutationRate": 0.001,
+      "description": "A heritable mind genetic locus that influences awareness expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_267",
+      "name": "Focused discipline 17",
+      "category": "Mind",
+      "inheritance": "dominant",
+      "mutationRate": 0.003,
+      "description": "A heritable mind genetic locus that influences discipline expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_268",
+      "name": "Focused language 18",
+      "category": "Mind",
+      "inheritance": "recessive",
+      "mutationRate": 0.005,
+      "description": "A heritable mind genetic locus that influences language expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_269",
+      "name": "Focused planning 19",
+      "category": "Mind",
+      "inheritance": "codominant",
+      "mutationRate": 0.01,
+      "description": "A heritable mind genetic locus that influences planning expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_270",
+      "name": "Focused perception 20",
+      "category": "Mind",
+      "inheritance": "polygenic",
+      "mutationRate": 0.02,
+      "description": "A heritable mind genetic locus that influences perception expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_271",
+      "name": "Curious memory 21",
+      "category": "Mind",
+      "inheritance": "dominant",
+      "mutationRate": 0.001,
+      "description": "A heritable mind genetic locus that influences memory expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_272",
+      "name": "Curious reason 22",
+      "category": "Mind",
+      "inheritance": "recessive",
+      "mutationRate": 0.003,
+      "description": "A heritable mind genetic locus that influences reason expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_273",
+      "name": "Curious intuition 23",
+      "category": "Mind",
+      "inheritance": "codominant",
+      "mutationRate": 0.005,
+      "description": "A heritable mind genetic locus that influences intuition expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_274",
+      "name": "Curious learning 24",
+      "category": "Mind",
+      "inheritance": "polygenic",
+      "mutationRate": 0.01,
+      "description": "A heritable mind genetic locus that influences learning expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_275",
+      "name": "Curious creativity 25",
+      "category": "Mind",
+      "inheritance": "dominant",
+      "mutationRate": 0.02,
+      "description": "A heritable mind genetic locus that influences creativity expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_276",
+      "name": "Patient awareness 26",
+      "category": "Mind",
+      "inheritance": "recessive",
+      "mutationRate": 0.001,
+      "description": "A heritable mind genetic locus that influences awareness expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_277",
+      "name": "Patient discipline 27",
+      "category": "Mind",
+      "inheritance": "codominant",
+      "mutationRate": 0.003,
+      "description": "A heritable mind genetic locus that influences discipline expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_278",
+      "name": "Patient language 28",
+      "category": "Mind",
+      "inheritance": "polygenic",
+      "mutationRate": 0.005,
+      "description": "A heritable mind genetic locus that influences language expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_279",
+      "name": "Patient planning 29",
+      "category": "Mind",
+      "inheritance": "dominant",
+      "mutationRate": 0.01,
+      "description": "A heritable mind genetic locus that influences planning expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_280",
+      "name": "Patient perception 30",
+      "category": "Mind",
+      "inheritance": "recessive",
+      "mutationRate": 0.02,
+      "description": "A heritable mind genetic locus that influences perception expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_281",
+      "name": "Cunning memory 31",
+      "category": "Mind",
+      "inheritance": "codominant",
+      "mutationRate": 0.001,
+      "description": "A heritable mind genetic locus that influences memory expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_282",
+      "name": "Cunning reason 32",
+      "category": "Mind",
+      "inheritance": "polygenic",
+      "mutationRate": 0.003,
+      "description": "A heritable mind genetic locus that influences reason expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_283",
+      "name": "Cunning intuition 33",
+      "category": "Mind",
+      "inheritance": "dominant",
+      "mutationRate": 0.005,
+      "description": "A heritable mind genetic locus that influences intuition expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_284",
+      "name": "Cunning learning 34",
+      "category": "Mind",
+      "inheritance": "recessive",
+      "mutationRate": 0.01,
+      "description": "A heritable mind genetic locus that influences learning expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_285",
+      "name": "Cunning creativity 35",
+      "category": "Mind",
+      "inheritance": "codominant",
+      "mutationRate": 0.02,
+      "description": "A heritable mind genetic locus that influences creativity expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_286",
+      "name": "Keen awareness 36",
+      "category": "Mind",
+      "inheritance": "polygenic",
+      "mutationRate": 0.001,
+      "description": "A heritable mind genetic locus that influences awareness expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_287",
+      "name": "Keen discipline 37",
+      "category": "Mind",
+      "inheritance": "dominant",
+      "mutationRate": 0.003,
+      "description": "A heritable mind genetic locus that influences discipline expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_288",
+      "name": "Keen language 38",
+      "category": "Mind",
+      "inheritance": "recessive",
+      "mutationRate": 0.005,
+      "description": "A heritable mind genetic locus that influences language expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_289",
+      "name": "Keen planning 39",
+      "category": "Mind",
+      "inheritance": "codominant",
+      "mutationRate": 0.01,
+      "description": "A heritable mind genetic locus that influences planning expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_290",
+      "name": "Keen perception 40",
+      "category": "Mind",
+      "inheritance": "polygenic",
+      "mutationRate": 0.02,
+      "description": "A heritable mind genetic locus that influences perception expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_291",
+      "name": "Wise memory 41",
+      "category": "Mind",
+      "inheritance": "dominant",
+      "mutationRate": 0.001,
+      "description": "A heritable mind genetic locus that influences memory expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_292",
+      "name": "Wise reason 42",
+      "category": "Mind",
+      "inheritance": "recessive",
+      "mutationRate": 0.003,
+      "description": "A heritable mind genetic locus that influences reason expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_293",
+      "name": "Wise intuition 43",
+      "category": "Mind",
+      "inheritance": "codominant",
+      "mutationRate": 0.005,
+      "description": "A heritable mind genetic locus that influences intuition expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_294",
+      "name": "Wise learning 44",
+      "category": "Mind",
+      "inheritance": "polygenic",
+      "mutationRate": 0.01,
+      "description": "A heritable mind genetic locus that influences learning expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_295",
+      "name": "Wise creativity 45",
+      "category": "Mind",
+      "inheritance": "dominant",
+      "mutationRate": 0.02,
+      "description": "A heritable mind genetic locus that influences creativity expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_296",
+      "name": "Inventive awareness 46",
+      "category": "Mind",
+      "inheritance": "recessive",
+      "mutationRate": 0.001,
+      "description": "A heritable mind genetic locus that influences awareness expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_297",
+      "name": "Inventive discipline 47",
+      "category": "Mind",
+      "inheritance": "codominant",
+      "mutationRate": 0.003,
+      "description": "A heritable mind genetic locus that influences discipline expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_298",
+      "name": "Inventive language 48",
+      "category": "Mind",
+      "inheritance": "polygenic",
+      "mutationRate": 0.005,
+      "description": "A heritable mind genetic locus that influences language expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_299",
+      "name": "Inventive planning 49",
+      "category": "Mind",
+      "inheritance": "dominant",
+      "mutationRate": 0.01,
+      "description": "A heritable mind genetic locus that influences planning expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_300",
+      "name": "Inventive perception 50",
+      "category": "Mind",
+      "inheritance": "recessive",
+      "mutationRate": 0.02,
+      "description": "A heritable mind genetic locus that influences perception expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_301",
+      "name": "Regenerative cell 01",
+      "category": "Vital",
+      "inheritance": "dominant",
+      "mutationRate": 0.001,
+      "description": "A heritable vital genetic locus that influences cell expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_302",
+      "name": "Regenerative marrow 02",
+      "category": "Vital",
+      "inheritance": "recessive",
+      "mutationRate": 0.003,
+      "description": "A heritable vital genetic locus that influences marrow expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_303",
+      "name": "Regenerative blood 03",
+      "category": "Vital",
+      "inheritance": "codominant",
+      "mutationRate": 0.005,
+      "description": "A heritable vital genetic locus that influences blood expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_304",
+      "name": "Regenerative repair 04",
+      "category": "Vital",
+      "inheritance": "polygenic",
+      "mutationRate": 0.01,
+      "description": "A heritable vital genetic locus that influences repair expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_305",
+      "name": "Regenerative longevity 05",
+      "category": "Vital",
+      "inheritance": "dominant",
+      "mutationRate": 0.02,
+      "description": "A heritable vital genetic locus that influences longevity expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_306",
+      "name": "Vital immunity 06",
+      "category": "Vital",
+      "inheritance": "recessive",
+      "mutationRate": 0.001,
+      "description": "A heritable vital genetic locus that influences immunity expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_307",
+      "name": "Vital vitality 07",
+      "category": "Vital",
+      "inheritance": "codominant",
+      "mutationRate": 0.003,
+      "description": "A heritable vital genetic locus that influences vitality expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_308",
+      "name": "Vital growth 08",
+      "category": "Vital",
+      "inheritance": "polygenic",
+      "mutationRate": 0.005,
+      "description": "A heritable vital genetic locus that influences growth expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_309",
+      "name": "Vital healing 09",
+      "category": "Vital",
+      "inheritance": "dominant",
+      "mutationRate": 0.01,
+      "description": "A heritable vital genetic locus that influences healing expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_310",
+      "name": "Vital life 10",
+      "category": "Vital",
+      "inheritance": "recessive",
+      "mutationRate": 0.02,
+      "description": "A heritable vital genetic locus that influences life expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_311",
+      "name": "Ancient cell 11",
+      "category": "Vital",
+      "inheritance": "codominant",
+      "mutationRate": 0.001,
+      "description": "A heritable vital genetic locus that influences cell expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_312",
+      "name": "Ancient marrow 12",
+      "category": "Vital",
+      "inheritance": "polygenic",
+      "mutationRate": 0.003,
+      "description": "A heritable vital genetic locus that influences marrow expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_313",
+      "name": "Ancient blood 13",
+      "category": "Vital",
+      "inheritance": "dominant",
+      "mutationRate": 0.005,
+      "description": "A heritable vital genetic locus that influences blood expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_314",
+      "name": "Ancient repair 14",
+      "category": "Vital",
+      "inheritance": "recessive",
+      "mutationRate": 0.01,
+      "description": "A heritable vital genetic locus that influences repair expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_315",
+      "name": "Ancient longevity 15",
+      "category": "Vital",
+      "inheritance": "codominant",
+      "mutationRate": 0.02,
+      "description": "A heritable vital genetic locus that influences longevity expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_316",
+      "name": "Primal immunity 16",
+      "category": "Vital",
+      "inheritance": "polygenic",
+      "mutationRate": 0.001,
+      "description": "A heritable vital genetic locus that influences immunity expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_317",
+      "name": "Primal vitality 17",
+      "category": "Vital",
+      "inheritance": "dominant",
+      "mutationRate": 0.003,
+      "description": "A heritable vital genetic locus that influences vitality expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_318",
+      "name": "Primal growth 18",
+      "category": "Vital",
+      "inheritance": "recessive",
+      "mutationRate": 0.005,
+      "description": "A heritable vital genetic locus that influences growth expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_319",
+      "name": "Primal healing 19",
+      "category": "Vital",
+      "inheritance": "codominant",
+      "mutationRate": 0.01,
+      "description": "A heritable vital genetic locus that influences healing expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_320",
+      "name": "Primal life 20",
+      "category": "Vital",
+      "inheritance": "polygenic",
+      "mutationRate": 0.02,
+      "description": "A heritable vital genetic locus that influences life expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_321",
+      "name": "Pure cell 21",
+      "category": "Vital",
+      "inheritance": "dominant",
+      "mutationRate": 0.001,
+      "description": "A heritable vital genetic locus that influences cell expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_322",
+      "name": "Pure marrow 22",
+      "category": "Vital",
+      "inheritance": "recessive",
+      "mutationRate": 0.003,
+      "description": "A heritable vital genetic locus that influences marrow expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_323",
+      "name": "Pure blood 23",
+      "category": "Vital",
+      "inheritance": "codominant",
+      "mutationRate": 0.005,
+      "description": "A heritable vital genetic locus that influences blood expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_324",
+      "name": "Pure repair 24",
+      "category": "Vital",
+      "inheritance": "polygenic",
+      "mutationRate": 0.01,
+      "description": "A heritable vital genetic locus that influences repair expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_325",
+      "name": "Pure longevity 25",
+      "category": "Vital",
+      "inheritance": "dominant",
+      "mutationRate": 0.02,
+      "description": "A heritable vital genetic locus that influences longevity expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_326",
+      "name": "Robust immunity 26",
+      "category": "Vital",
+      "inheritance": "recessive",
+      "mutationRate": 0.001,
+      "description": "A heritable vital genetic locus that influences immunity expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_327",
+      "name": "Robust vitality 27",
+      "category": "Vital",
+      "inheritance": "codominant",
+      "mutationRate": 0.003,
+      "description": "A heritable vital genetic locus that influences vitality expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_328",
+      "name": "Robust growth 28",
+      "category": "Vital",
+      "inheritance": "polygenic",
+      "mutationRate": 0.005,
+      "description": "A heritable vital genetic locus that influences growth expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_329",
+      "name": "Robust healing 29",
+      "category": "Vital",
+      "inheritance": "dominant",
+      "mutationRate": 0.01,
+      "description": "A heritable vital genetic locus that influences healing expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_330",
+      "name": "Robust life 30",
+      "category": "Vital",
+      "inheritance": "recessive",
+      "mutationRate": 0.02,
+      "description": "A heritable vital genetic locus that influences life expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_331",
+      "name": "Evergreen cell 31",
+      "category": "Vital",
+      "inheritance": "codominant",
+      "mutationRate": 0.001,
+      "description": "A heritable vital genetic locus that influences cell expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_332",
+      "name": "Evergreen marrow 32",
+      "category": "Vital",
+      "inheritance": "polygenic",
+      "mutationRate": 0.003,
+      "description": "A heritable vital genetic locus that influences marrow expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_333",
+      "name": "Evergreen blood 33",
+      "category": "Vital",
+      "inheritance": "dominant",
+      "mutationRate": 0.005,
+      "description": "A heritable vital genetic locus that influences blood expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_334",
+      "name": "Evergreen repair 34",
+      "category": "Vital",
+      "inheritance": "recessive",
+      "mutationRate": 0.01,
+      "description": "A heritable vital genetic locus that influences repair expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_335",
+      "name": "Evergreen longevity 35",
+      "category": "Vital",
+      "inheritance": "codominant",
+      "mutationRate": 0.02,
+      "description": "A heritable vital genetic locus that influences longevity expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_336",
+      "name": "Stalwart immunity 36",
+      "category": "Vital",
+      "inheritance": "polygenic",
+      "mutationRate": 0.001,
+      "description": "A heritable vital genetic locus that influences immunity expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_337",
+      "name": "Stalwart vitality 37",
+      "category": "Vital",
+      "inheritance": "dominant",
+      "mutationRate": 0.003,
+      "description": "A heritable vital genetic locus that influences vitality expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_338",
+      "name": "Stalwart growth 38",
+      "category": "Vital",
+      "inheritance": "recessive",
+      "mutationRate": 0.005,
+      "description": "A heritable vital genetic locus that influences growth expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_339",
+      "name": "Stalwart healing 39",
+      "category": "Vital",
+      "inheritance": "codominant",
+      "mutationRate": 0.01,
+      "description": "A heritable vital genetic locus that influences healing expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_340",
+      "name": "Stalwart life 40",
+      "category": "Vital",
+      "inheritance": "polygenic",
+      "mutationRate": 0.02,
+      "description": "A heritable vital genetic locus that influences life expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_341",
+      "name": "Radiant cell 41",
+      "category": "Vital",
+      "inheritance": "dominant",
+      "mutationRate": 0.001,
+      "description": "A heritable vital genetic locus that influences cell expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_342",
+      "name": "Radiant marrow 42",
+      "category": "Vital",
+      "inheritance": "recessive",
+      "mutationRate": 0.003,
+      "description": "A heritable vital genetic locus that influences marrow expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_343",
+      "name": "Radiant blood 43",
+      "category": "Vital",
+      "inheritance": "codominant",
+      "mutationRate": 0.005,
+      "description": "A heritable vital genetic locus that influences blood expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_344",
+      "name": "Radiant repair 44",
+      "category": "Vital",
+      "inheritance": "polygenic",
+      "mutationRate": 0.01,
+      "description": "A heritable vital genetic locus that influences repair expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_345",
+      "name": "Radiant longevity 45",
+      "category": "Vital",
+      "inheritance": "dominant",
+      "mutationRate": 0.02,
+      "description": "A heritable vital genetic locus that influences longevity expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_346",
+      "name": "Unbroken immunity 46",
+      "category": "Vital",
+      "inheritance": "recessive",
+      "mutationRate": 0.001,
+      "description": "A heritable vital genetic locus that influences immunity expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_347",
+      "name": "Unbroken vitality 47",
+      "category": "Vital",
+      "inheritance": "codominant",
+      "mutationRate": 0.003,
+      "description": "A heritable vital genetic locus that influences vitality expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_348",
+      "name": "Unbroken growth 48",
+      "category": "Vital",
+      "inheritance": "polygenic",
+      "mutationRate": 0.005,
+      "description": "A heritable vital genetic locus that influences growth expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_349",
+      "name": "Unbroken healing 49",
+      "category": "Vital",
+      "inheritance": "dominant",
+      "mutationRate": 0.01,
+      "description": "A heritable vital genetic locus that influences healing expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_350",
+      "name": "Unbroken life 50",
+      "category": "Vital",
+      "inheritance": "recessive",
+      "mutationRate": 0.02,
+      "description": "A heritable vital genetic locus that influences life expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_351",
+      "name": "Twisted sequence 01",
+      "category": "Mutation",
+      "inheritance": "dominant",
+      "mutationRate": 0.001,
+      "description": "A heritable mutation genetic locus that influences sequence expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_352",
+      "name": "Twisted morph 02",
+      "category": "Mutation",
+      "inheritance": "recessive",
+      "mutationRate": 0.003,
+      "description": "A heritable mutation genetic locus that influences morph expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_353",
+      "name": "Twisted splice 03",
+      "category": "Mutation",
+      "inheritance": "codominant",
+      "mutationRate": 0.005,
+      "description": "A heritable mutation genetic locus that influences splice expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_354",
+      "name": "Twisted shift 04",
+      "category": "Mutation",
+      "inheritance": "polygenic",
+      "mutationRate": 0.01,
+      "description": "A heritable mutation genetic locus that influences shift expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_355",
+      "name": "Twisted bloom 05",
+      "category": "Mutation",
+      "inheritance": "dominant",
+      "mutationRate": 0.02,
+      "description": "A heritable mutation genetic locus that influences bloom expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_356",
+      "name": "Adaptive branch 06",
+      "category": "Mutation",
+      "inheritance": "recessive",
+      "mutationRate": 0.001,
+      "description": "A heritable mutation genetic locus that influences branch expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_357",
+      "name": "Adaptive variant 07",
+      "category": "Mutation",
+      "inheritance": "codominant",
+      "mutationRate": 0.003,
+      "description": "A heritable mutation genetic locus that influences variant expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_358",
+      "name": "Adaptive mutation 08",
+      "category": "Mutation",
+      "inheritance": "polygenic",
+      "mutationRate": 0.005,
+      "description": "A heritable mutation genetic locus that influences mutation expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_359",
+      "name": "Adaptive fusion 09",
+      "category": "Mutation",
+      "inheritance": "dominant",
+      "mutationRate": 0.01,
+      "description": "A heritable mutation genetic locus that influences fusion expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_360",
+      "name": "Adaptive expression 10",
+      "category": "Mutation",
+      "inheritance": "recessive",
+      "mutationRate": 0.02,
+      "description": "A heritable mutation genetic locus that influences expression expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_361",
+      "name": "Unstable sequence 11",
+      "category": "Mutation",
+      "inheritance": "codominant",
+      "mutationRate": 0.001,
+      "description": "A heritable mutation genetic locus that influences sequence expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_362",
+      "name": "Unstable morph 12",
+      "category": "Mutation",
+      "inheritance": "polygenic",
+      "mutationRate": 0.003,
+      "description": "A heritable mutation genetic locus that influences morph expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_363",
+      "name": "Unstable splice 13",
+      "category": "Mutation",
+      "inheritance": "dominant",
+      "mutationRate": 0.005,
+      "description": "A heritable mutation genetic locus that influences splice expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_364",
+      "name": "Unstable shift 14",
+      "category": "Mutation",
+      "inheritance": "recessive",
+      "mutationRate": 0.01,
+      "description": "A heritable mutation genetic locus that influences shift expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_365",
+      "name": "Unstable bloom 15",
+      "category": "Mutation",
+      "inheritance": "codominant",
+      "mutationRate": 0.02,
+      "description": "A heritable mutation genetic locus that influences bloom expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_366",
+      "name": "Symbiotic branch 16",
+      "category": "Mutation",
+      "inheritance": "polygenic",
+      "mutationRate": 0.001,
+      "description": "A heritable mutation genetic locus that influences branch expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_367",
+      "name": "Symbiotic variant 17",
+      "category": "Mutation",
+      "inheritance": "dominant",
+      "mutationRate": 0.003,
+      "description": "A heritable mutation genetic locus that influences variant expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_368",
+      "name": "Symbiotic mutation 18",
+      "category": "Mutation",
+      "inheritance": "recessive",
+      "mutationRate": 0.005,
+      "description": "A heritable mutation genetic locus that influences mutation expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_369",
+      "name": "Symbiotic fusion 19",
+      "category": "Mutation",
+      "inheritance": "codominant",
+      "mutationRate": 0.01,
+      "description": "A heritable mutation genetic locus that influences fusion expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_370",
+      "name": "Symbiotic expression 20",
+      "category": "Mutation",
+      "inheritance": "polygenic",
+      "mutationRate": 0.02,
+      "description": "A heritable mutation genetic locus that influences expression expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_371",
+      "name": "Parasitic sequence 21",
+      "category": "Mutation",
+      "inheritance": "dominant",
+      "mutationRate": 0.001,
+      "description": "A heritable mutation genetic locus that influences sequence expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_372",
+      "name": "Parasitic morph 22",
+      "category": "Mutation",
+      "inheritance": "recessive",
+      "mutationRate": 0.003,
+      "description": "A heritable mutation genetic locus that influences morph expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_373",
+      "name": "Parasitic splice 23",
+      "category": "Mutation",
+      "inheritance": "codominant",
+      "mutationRate": 0.005,
+      "description": "A heritable mutation genetic locus that influences splice expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_374",
+      "name": "Parasitic shift 24",
+      "category": "Mutation",
+      "inheritance": "polygenic",
+      "mutationRate": 0.01,
+      "description": "A heritable mutation genetic locus that influences shift expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_375",
+      "name": "Parasitic bloom 25",
+      "category": "Mutation",
+      "inheritance": "dominant",
+      "mutationRate": 0.02,
+      "description": "A heritable mutation genetic locus that influences bloom expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_376",
+      "name": "Chromatic branch 26",
+      "category": "Mutation",
+      "inheritance": "recessive",
+      "mutationRate": 0.001,
+      "description": "A heritable mutation genetic locus that influences branch expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_377",
+      "name": "Chromatic variant 27",
+      "category": "Mutation",
+      "inheritance": "codominant",
+      "mutationRate": 0.003,
+      "description": "A heritable mutation genetic locus that influences variant expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_378",
+      "name": "Chromatic mutation 28",
+      "category": "Mutation",
+      "inheritance": "polygenic",
+      "mutationRate": 0.005,
+      "description": "A heritable mutation genetic locus that influences mutation expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_379",
+      "name": "Chromatic fusion 29",
+      "category": "Mutation",
+      "inheritance": "dominant",
+      "mutationRate": 0.01,
+      "description": "A heritable mutation genetic locus that influences fusion expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_380",
+      "name": "Chromatic expression 30",
+      "category": "Mutation",
+      "inheritance": "recessive",
+      "mutationRate": 0.02,
+      "description": "A heritable mutation genetic locus that influences expression expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_381",
+      "name": "Shadow sequence 31",
+      "category": "Mutation",
+      "inheritance": "codominant",
+      "mutationRate": 0.001,
+      "description": "A heritable mutation genetic locus that influences sequence expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_382",
+      "name": "Shadow morph 32",
+      "category": "Mutation",
+      "inheritance": "polygenic",
+      "mutationRate": 0.003,
+      "description": "A heritable mutation genetic locus that influences morph expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_383",
+      "name": "Shadow splice 33",
+      "category": "Mutation",
+      "inheritance": "dominant",
+      "mutationRate": 0.005,
+      "description": "A heritable mutation genetic locus that influences splice expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_384",
+      "name": "Shadow shift 34",
+      "category": "Mutation",
+      "inheritance": "recessive",
+      "mutationRate": 0.01,
+      "description": "A heritable mutation genetic locus that influences shift expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_385",
+      "name": "Shadow bloom 35",
+      "category": "Mutation",
+      "inheritance": "codominant",
+      "mutationRate": 0.02,
+      "description": "A heritable mutation genetic locus that influences bloom expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_386",
+      "name": "Gilded branch 36",
+      "category": "Mutation",
+      "inheritance": "polygenic",
+      "mutationRate": 0.001,
+      "description": "A heritable mutation genetic locus that influences branch expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_387",
+      "name": "Gilded variant 37",
+      "category": "Mutation",
+      "inheritance": "dominant",
+      "mutationRate": 0.003,
+      "description": "A heritable mutation genetic locus that influences variant expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_388",
+      "name": "Gilded mutation 38",
+      "category": "Mutation",
+      "inheritance": "recessive",
+      "mutationRate": 0.005,
+      "description": "A heritable mutation genetic locus that influences mutation expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_389",
+      "name": "Gilded fusion 39",
+      "category": "Mutation",
+      "inheritance": "codominant",
+      "mutationRate": 0.01,
+      "description": "A heritable mutation genetic locus that influences fusion expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_390",
+      "name": "Gilded expression 40",
+      "category": "Mutation",
+      "inheritance": "polygenic",
+      "mutationRate": 0.02,
+      "description": "A heritable mutation genetic locus that influences expression expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_391",
+      "name": "Hollow sequence 41",
+      "category": "Mutation",
+      "inheritance": "dominant",
+      "mutationRate": 0.001,
+      "description": "A heritable mutation genetic locus that influences sequence expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_392",
+      "name": "Hollow morph 42",
+      "category": "Mutation",
+      "inheritance": "recessive",
+      "mutationRate": 0.003,
+      "description": "A heritable mutation genetic locus that influences morph expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_393",
+      "name": "Hollow splice 43",
+      "category": "Mutation",
+      "inheritance": "codominant",
+      "mutationRate": 0.005,
+      "description": "A heritable mutation genetic locus that influences splice expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_394",
+      "name": "Hollow shift 44",
+      "category": "Mutation",
+      "inheritance": "polygenic",
+      "mutationRate": 0.01,
+      "description": "A heritable mutation genetic locus that influences shift expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_395",
+      "name": "Hollow bloom 45",
+      "category": "Mutation",
+      "inheritance": "dominant",
+      "mutationRate": 0.02,
+      "description": "A heritable mutation genetic locus that influences bloom expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_396",
+      "name": "Wild branch 46",
+      "category": "Mutation",
+      "inheritance": "recessive",
+      "mutationRate": 0.001,
+      "description": "A heritable mutation genetic locus that influences branch expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_397",
+      "name": "Wild variant 47",
+      "category": "Mutation",
+      "inheritance": "codominant",
+      "mutationRate": 0.003,
+      "description": "A heritable mutation genetic locus that influences variant expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_398",
+      "name": "Wild mutation 48",
+      "category": "Mutation",
+      "inheritance": "polygenic",
+      "mutationRate": 0.005,
+      "description": "A heritable mutation genetic locus that influences mutation expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_399",
+      "name": "Wild fusion 49",
+      "category": "Mutation",
+      "inheritance": "dominant",
+      "mutationRate": 0.01,
+      "description": "A heritable mutation genetic locus that influences fusion expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_400",
+      "name": "Wild expression 50",
+      "category": "Mutation",
+      "inheritance": "recessive",
+      "mutationRate": 0.02,
+      "description": "A heritable mutation genetic locus that influences expression expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_401",
+      "name": "Royal voice 01",
+      "category": "Social",
+      "inheritance": "dominant",
+      "mutationRate": 0.001,
+      "description": "A heritable social genetic locus that influences voice expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_402",
+      "name": "Royal bond 02",
+      "category": "Social",
+      "inheritance": "recessive",
+      "mutationRate": 0.003,
+      "description": "A heritable social genetic locus that influences bond expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_403",
+      "name": "Royal leadership 03",
+      "category": "Social",
+      "inheritance": "codominant",
+      "mutationRate": 0.005,
+      "description": "A heritable social genetic locus that influences leadership expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_404",
+      "name": "Royal trust 04",
+      "category": "Social",
+      "inheritance": "polygenic",
+      "mutationRate": 0.01,
+      "description": "A heritable social genetic locus that influences trust expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_405",
+      "name": "Royal tradition 05",
+      "category": "Social",
+      "inheritance": "dominant",
+      "mutationRate": 0.02,
+      "description": "A heritable social genetic locus that influences tradition expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_406",
+      "name": "Diplomatic influence 06",
+      "category": "Social",
+      "inheritance": "recessive",
+      "mutationRate": 0.001,
+      "description": "A heritable social genetic locus that influences influence expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_407",
+      "name": "Diplomatic kinship 07",
+      "category": "Social",
+      "inheritance": "codominant",
+      "mutationRate": 0.003,
+      "description": "A heritable social genetic locus that influences kinship expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_408",
+      "name": "Diplomatic resolve 08",
+      "category": "Social",
+      "inheritance": "polygenic",
+      "mutationRate": 0.005,
+      "description": "A heritable social genetic locus that influences resolve expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_409",
+      "name": "Diplomatic unity 09",
+      "category": "Social",
+      "inheritance": "dominant",
+      "mutationRate": 0.01,
+      "description": "A heritable social genetic locus that influences unity expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_410",
+      "name": "Diplomatic legacy 10",
+      "category": "Social",
+      "inheritance": "recessive",
+      "mutationRate": 0.02,
+      "description": "A heritable social genetic locus that influences legacy expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_411",
+      "name": "Charismatic voice 11",
+      "category": "Social",
+      "inheritance": "codominant",
+      "mutationRate": 0.001,
+      "description": "A heritable social genetic locus that influences voice expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_412",
+      "name": "Charismatic bond 12",
+      "category": "Social",
+      "inheritance": "polygenic",
+      "mutationRate": 0.003,
+      "description": "A heritable social genetic locus that influences bond expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_413",
+      "name": "Charismatic leadership 13",
+      "category": "Social",
+      "inheritance": "dominant",
+      "mutationRate": 0.005,
+      "description": "A heritable social genetic locus that influences leadership expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_414",
+      "name": "Charismatic trust 14",
+      "category": "Social",
+      "inheritance": "recessive",
+      "mutationRate": 0.01,
+      "description": "A heritable social genetic locus that influences trust expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_415",
+      "name": "Charismatic tradition 15",
+      "category": "Social",
+      "inheritance": "codominant",
+      "mutationRate": 0.02,
+      "description": "A heritable social genetic locus that influences tradition expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_416",
+      "name": "Tribal influence 16",
+      "category": "Social",
+      "inheritance": "polygenic",
+      "mutationRate": 0.001,
+      "description": "A heritable social genetic locus that influences influence expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_417",
+      "name": "Tribal kinship 17",
+      "category": "Social",
+      "inheritance": "dominant",
+      "mutationRate": 0.003,
+      "description": "A heritable social genetic locus that influences kinship expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_418",
+      "name": "Tribal resolve 18",
+      "category": "Social",
+      "inheritance": "recessive",
+      "mutationRate": 0.005,
+      "description": "A heritable social genetic locus that influences resolve expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_419",
+      "name": "Tribal unity 19",
+      "category": "Social",
+      "inheritance": "codominant",
+      "mutationRate": 0.01,
+      "description": "A heritable social genetic locus that influences unity expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_420",
+      "name": "Tribal legacy 20",
+      "category": "Social",
+      "inheritance": "polygenic",
+      "mutationRate": 0.02,
+      "description": "A heritable social genetic locus that influences legacy expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_421",
+      "name": "Noble voice 21",
+      "category": "Social",
+      "inheritance": "dominant",
+      "mutationRate": 0.001,
+      "description": "A heritable social genetic locus that influences voice expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_422",
+      "name": "Noble bond 22",
+      "category": "Social",
+      "inheritance": "recessive",
+      "mutationRate": 0.003,
+      "description": "A heritable social genetic locus that influences bond expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_423",
+      "name": "Noble leadership 23",
+      "category": "Social",
+      "inheritance": "codominant",
+      "mutationRate": 0.005,
+      "description": "A heritable social genetic locus that influences leadership expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_424",
+      "name": "Noble trust 24",
+      "category": "Social",
+      "inheritance": "polygenic",
+      "mutationRate": 0.01,
+      "description": "A heritable social genetic locus that influences trust expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_425",
+      "name": "Noble tradition 25",
+      "category": "Social",
+      "inheritance": "dominant",
+      "mutationRate": 0.02,
+      "description": "A heritable social genetic locus that influences tradition expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_426",
+      "name": "Loyal influence 26",
+      "category": "Social",
+      "inheritance": "recessive",
+      "mutationRate": 0.001,
+      "description": "A heritable social genetic locus that influences influence expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_427",
+      "name": "Loyal kinship 27",
+      "category": "Social",
+      "inheritance": "codominant",
+      "mutationRate": 0.003,
+      "description": "A heritable social genetic locus that influences kinship expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_428",
+      "name": "Loyal resolve 28",
+      "category": "Social",
+      "inheritance": "polygenic",
+      "mutationRate": 0.005,
+      "description": "A heritable social genetic locus that influences resolve expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_429",
+      "name": "Loyal unity 29",
+      "category": "Social",
+      "inheritance": "dominant",
+      "mutationRate": 0.01,
+      "description": "A heritable social genetic locus that influences unity expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_430",
+      "name": "Loyal legacy 30",
+      "category": "Social",
+      "inheritance": "recessive",
+      "mutationRate": 0.02,
+      "description": "A heritable social genetic locus that influences legacy expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_431",
+      "name": "Commanding voice 31",
+      "category": "Social",
+      "inheritance": "codominant",
+      "mutationRate": 0.001,
+      "description": "A heritable social genetic locus that influences voice expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_432",
+      "name": "Commanding bond 32",
+      "category": "Social",
+      "inheritance": "polygenic",
+      "mutationRate": 0.003,
+      "description": "A heritable social genetic locus that influences bond expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_433",
+      "name": "Commanding leadership 33",
+      "category": "Social",
+      "inheritance": "dominant",
+      "mutationRate": 0.005,
+      "description": "A heritable social genetic locus that influences leadership expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_434",
+      "name": "Commanding trust 34",
+      "category": "Social",
+      "inheritance": "recessive",
+      "mutationRate": 0.01,
+      "description": "A heritable social genetic locus that influences trust expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_435",
+      "name": "Commanding tradition 35",
+      "category": "Social",
+      "inheritance": "codominant",
+      "mutationRate": 0.02,
+      "description": "A heritable social genetic locus that influences tradition expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_436",
+      "name": "Peaceful influence 36",
+      "category": "Social",
+      "inheritance": "polygenic",
+      "mutationRate": 0.001,
+      "description": "A heritable social genetic locus that influences influence expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_437",
+      "name": "Peaceful kinship 37",
+      "category": "Social",
+      "inheritance": "dominant",
+      "mutationRate": 0.003,
+      "description": "A heritable social genetic locus that influences kinship expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_438",
+      "name": "Peaceful resolve 38",
+      "category": "Social",
+      "inheritance": "recessive",
+      "mutationRate": 0.005,
+      "description": "A heritable social genetic locus that influences resolve expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_439",
+      "name": "Peaceful unity 39",
+      "category": "Social",
+      "inheritance": "codominant",
+      "mutationRate": 0.01,
+      "description": "A heritable social genetic locus that influences unity expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_440",
+      "name": "Peaceful legacy 40",
+      "category": "Social",
+      "inheritance": "polygenic",
+      "mutationRate": 0.02,
+      "description": "A heritable social genetic locus that influences legacy expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_441",
+      "name": "Ruthless voice 41",
+      "category": "Social",
+      "inheritance": "dominant",
+      "mutationRate": 0.001,
+      "description": "A heritable social genetic locus that influences voice expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_442",
+      "name": "Ruthless bond 42",
+      "category": "Social",
+      "inheritance": "recessive",
+      "mutationRate": 0.003,
+      "description": "A heritable social genetic locus that influences bond expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_443",
+      "name": "Ruthless leadership 43",
+      "category": "Social",
+      "inheritance": "codominant",
+      "mutationRate": 0.005,
+      "description": "A heritable social genetic locus that influences leadership expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_444",
+      "name": "Ruthless trust 44",
+      "category": "Social",
+      "inheritance": "polygenic",
+      "mutationRate": 0.01,
+      "description": "A heritable social genetic locus that influences trust expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_445",
+      "name": "Ruthless tradition 45",
+      "category": "Social",
+      "inheritance": "dominant",
+      "mutationRate": 0.02,
+      "description": "A heritable social genetic locus that influences tradition expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_446",
+      "name": "Cooperative influence 46",
+      "category": "Social",
+      "inheritance": "recessive",
+      "mutationRate": 0.001,
+      "description": "A heritable social genetic locus that influences influence expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_447",
+      "name": "Cooperative kinship 47",
+      "category": "Social",
+      "inheritance": "codominant",
+      "mutationRate": 0.003,
+      "description": "A heritable social genetic locus that influences kinship expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_448",
+      "name": "Cooperative resolve 48",
+      "category": "Social",
+      "inheritance": "polygenic",
+      "mutationRate": 0.005,
+      "description": "A heritable social genetic locus that influences resolve expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_449",
+      "name": "Cooperative unity 49",
+      "category": "Social",
+      "inheritance": "dominant",
+      "mutationRate": 0.01,
+      "description": "A heritable social genetic locus that influences unity expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_450",
+      "name": "Cooperative legacy 50",
+      "category": "Social",
+      "inheritance": "recessive",
+      "mutationRate": 0.02,
+      "description": "A heritable social genetic locus that influences legacy expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_451",
+      "name": "Mythic essence 01",
+      "category": "Rare",
+      "inheritance": "dominant",
+      "mutationRate": 0.001,
+      "description": "A heritable rare genetic locus that influences essence expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_452",
+      "name": "Mythic spark 02",
+      "category": "Rare",
+      "inheritance": "recessive",
+      "mutationRate": 0.003,
+      "description": "A heritable rare genetic locus that influences spark expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_453",
+      "name": "Mythic heritage 03",
+      "category": "Rare",
+      "inheritance": "codominant",
+      "mutationRate": 0.005,
+      "description": "A heritable rare genetic locus that influences heritage expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_454",
+      "name": "Mythic origin 04",
+      "category": "Rare",
+      "inheritance": "polygenic",
+      "mutationRate": 0.01,
+      "description": "A heritable rare genetic locus that influences origin expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_455",
+      "name": "Mythic anomaly 05",
+      "category": "Rare",
+      "inheritance": "dominant",
+      "mutationRate": 0.02,
+      "description": "A heritable rare genetic locus that influences anomaly expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_456",
+      "name": "Eternal blessing 06",
+      "category": "Rare",
+      "inheritance": "recessive",
+      "mutationRate": 0.001,
+      "description": "A heritable rare genetic locus that influences blessing expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_457",
+      "name": "Eternal destiny 07",
+      "category": "Rare",
+      "inheritance": "codominant",
+      "mutationRate": 0.003,
+      "description": "A heritable rare genetic locus that influences destiny expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_458",
+      "name": "Eternal paradox 08",
+      "category": "Rare",
+      "inheritance": "polygenic",
+      "mutationRate": 0.005,
+      "description": "A heritable rare genetic locus that influences paradox expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_459",
+      "name": "Eternal crown 09",
+      "category": "Rare",
+      "inheritance": "dominant",
+      "mutationRate": 0.01,
+      "description": "A heritable rare genetic locus that influences crown expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_460",
+      "name": "Eternal genesis 10",
+      "category": "Rare",
+      "inheritance": "recessive",
+      "mutationRate": 0.02,
+      "description": "A heritable rare genetic locus that influences genesis expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_461",
+      "name": "Infinite essence 11",
+      "category": "Rare",
+      "inheritance": "codominant",
+      "mutationRate": 0.001,
+      "description": "A heritable rare genetic locus that influences essence expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_462",
+      "name": "Infinite spark 12",
+      "category": "Rare",
+      "inheritance": "polygenic",
+      "mutationRate": 0.003,
+      "description": "A heritable rare genetic locus that influences spark expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_463",
+      "name": "Infinite heritage 13",
+      "category": "Rare",
+      "inheritance": "dominant",
+      "mutationRate": 0.005,
+      "description": "A heritable rare genetic locus that influences heritage expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_464",
+      "name": "Infinite origin 14",
+      "category": "Rare",
+      "inheritance": "recessive",
+      "mutationRate": 0.01,
+      "description": "A heritable rare genetic locus that influences origin expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_465",
+      "name": "Infinite anomaly 15",
+      "category": "Rare",
+      "inheritance": "codominant",
+      "mutationRate": 0.02,
+      "description": "A heritable rare genetic locus that influences anomaly expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_466",
+      "name": "Divine blessing 16",
+      "category": "Rare",
+      "inheritance": "polygenic",
+      "mutationRate": 0.001,
+      "description": "A heritable rare genetic locus that influences blessing expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_467",
+      "name": "Divine destiny 17",
+      "category": "Rare",
+      "inheritance": "dominant",
+      "mutationRate": 0.003,
+      "description": "A heritable rare genetic locus that influences destiny expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_468",
+      "name": "Divine paradox 18",
+      "category": "Rare",
+      "inheritance": "recessive",
+      "mutationRate": 0.005,
+      "description": "A heritable rare genetic locus that influences paradox expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_469",
+      "name": "Divine crown 19",
+      "category": "Rare",
+      "inheritance": "codominant",
+      "mutationRate": 0.01,
+      "description": "A heritable rare genetic locus that influences crown expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_470",
+      "name": "Divine genesis 20",
+      "category": "Rare",
+      "inheritance": "polygenic",
+      "mutationRate": 0.02,
+      "description": "A heritable rare genetic locus that influences genesis expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_471",
+      "name": "Primordial essence 21",
+      "category": "Rare",
+      "inheritance": "dominant",
+      "mutationRate": 0.001,
+      "description": "A heritable rare genetic locus that influences essence expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_472",
+      "name": "Primordial spark 22",
+      "category": "Rare",
+      "inheritance": "recessive",
+      "mutationRate": 0.003,
+      "description": "A heritable rare genetic locus that influences spark expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_473",
+      "name": "Primordial heritage 23",
+      "category": "Rare",
+      "inheritance": "codominant",
+      "mutationRate": 0.005,
+      "description": "A heritable rare genetic locus that influences heritage expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_474",
+      "name": "Primordial origin 24",
+      "category": "Rare",
+      "inheritance": "polygenic",
+      "mutationRate": 0.01,
+      "description": "A heritable rare genetic locus that influences origin expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_475",
+      "name": "Primordial anomaly 25",
+      "category": "Rare",
+      "inheritance": "dominant",
+      "mutationRate": 0.02,
+      "description": "A heritable rare genetic locus that influences anomaly expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_476",
+      "name": "Transcendent blessing 26",
+      "category": "Rare",
+      "inheritance": "recessive",
+      "mutationRate": 0.001,
+      "description": "A heritable rare genetic locus that influences blessing expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_477",
+      "name": "Transcendent destiny 27",
+      "category": "Rare",
+      "inheritance": "codominant",
+      "mutationRate": 0.003,
+      "description": "A heritable rare genetic locus that influences destiny expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_478",
+      "name": "Transcendent paradox 28",
+      "category": "Rare",
+      "inheritance": "polygenic",
+      "mutationRate": 0.005,
+      "description": "A heritable rare genetic locus that influences paradox expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_479",
+      "name": "Transcendent crown 29",
+      "category": "Rare",
+      "inheritance": "dominant",
+      "mutationRate": 0.01,
+      "description": "A heritable rare genetic locus that influences crown expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_480",
+      "name": "Transcendent genesis 30",
+      "category": "Rare",
+      "inheritance": "recessive",
+      "mutationRate": 0.02,
+      "description": "A heritable rare genetic locus that influences genesis expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_481",
+      "name": "Forbidden essence 31",
+      "category": "Rare",
+      "inheritance": "codominant",
+      "mutationRate": 0.001,
+      "description": "A heritable rare genetic locus that influences essence expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_482",
+      "name": "Forbidden spark 32",
+      "category": "Rare",
+      "inheritance": "polygenic",
+      "mutationRate": 0.003,
+      "description": "A heritable rare genetic locus that influences spark expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_483",
+      "name": "Forbidden heritage 33",
+      "category": "Rare",
+      "inheritance": "dominant",
+      "mutationRate": 0.005,
+      "description": "A heritable rare genetic locus that influences heritage expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_484",
+      "name": "Forbidden origin 34",
+      "category": "Rare",
+      "inheritance": "recessive",
+      "mutationRate": 0.01,
+      "description": "A heritable rare genetic locus that influences origin expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_485",
+      "name": "Forbidden anomaly 35",
+      "category": "Rare",
+      "inheritance": "codominant",
+      "mutationRate": 0.02,
+      "description": "A heritable rare genetic locus that influences anomaly expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_486",
+      "name": "Perfected blessing 36",
+      "category": "Rare",
+      "inheritance": "polygenic",
+      "mutationRate": 0.001,
+      "description": "A heritable rare genetic locus that influences blessing expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_487",
+      "name": "Perfected destiny 37",
+      "category": "Rare",
+      "inheritance": "dominant",
+      "mutationRate": 0.003,
+      "description": "A heritable rare genetic locus that influences destiny expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_488",
+      "name": "Perfected paradox 38",
+      "category": "Rare",
+      "inheritance": "recessive",
+      "mutationRate": 0.005,
+      "description": "A heritable rare genetic locus that influences paradox expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_489",
+      "name": "Perfected crown 39",
+      "category": "Rare",
+      "inheritance": "codominant",
+      "mutationRate": 0.01,
+      "description": "A heritable rare genetic locus that influences crown expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_490",
+      "name": "Perfected genesis 40",
+      "category": "Rare",
+      "inheritance": "polygenic",
+      "mutationRate": 0.02,
+      "description": "A heritable rare genetic locus that influences genesis expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_491",
+      "name": "Worldborn essence 41",
+      "category": "Rare",
+      "inheritance": "dominant",
+      "mutationRate": 0.001,
+      "description": "A heritable rare genetic locus that influences essence expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_492",
+      "name": "Worldborn spark 42",
+      "category": "Rare",
+      "inheritance": "recessive",
+      "mutationRate": 0.003,
+      "description": "A heritable rare genetic locus that influences spark expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_493",
+      "name": "Worldborn heritage 43",
+      "category": "Rare",
+      "inheritance": "codominant",
+      "mutationRate": 0.005,
+      "description": "A heritable rare genetic locus that influences heritage expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_494",
+      "name": "Worldborn origin 44",
+      "category": "Rare",
+      "inheritance": "polygenic",
+      "mutationRate": 0.01,
+      "description": "A heritable rare genetic locus that influences origin expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_495",
+      "name": "Worldborn anomaly 45",
+      "category": "Rare",
+      "inheritance": "dominant",
+      "mutationRate": 0.02,
+      "description": "A heritable rare genetic locus that influences anomaly expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.9
+      }
+    },
+    {
+      "id": "gene_496",
+      "name": "Godforged blessing 46",
+      "category": "Rare",
+      "inheritance": "recessive",
+      "mutationRate": 0.001,
+      "description": "A heritable rare genetic locus that influences blessing expression.",
+      "effects": {
+        "expression": "moderate",
+        "heritability": 0.5
+      }
+    },
+    {
+      "id": "gene_497",
+      "name": "Godforged destiny 47",
+      "category": "Rare",
+      "inheritance": "codominant",
+      "mutationRate": 0.003,
+      "description": "A heritable rare genetic locus that influences destiny expression.",
+      "effects": {
+        "expression": "strong",
+        "heritability": 0.6
+      }
+    },
+    {
+      "id": "gene_498",
+      "name": "Godforged paradox 48",
+      "category": "Rare",
+      "inheritance": "polygenic",
+      "mutationRate": 0.005,
+      "description": "A heritable rare genetic locus that influences paradox expression.",
+      "effects": {
+        "expression": "variable",
+        "heritability": 0.7
+      }
+    },
+    {
+      "id": "gene_499",
+      "name": "Godforged crown 49",
+      "category": "Rare",
+      "inheritance": "dominant",
+      "mutationRate": 0.01,
+      "description": "A heritable rare genetic locus that influences crown expression.",
+      "effects": {
+        "expression": "minor",
+        "heritability": 0.8
+      }
+    },
+    {
+      "id": "gene_500",
+      "name": "Eternal Life Locus",
+      "category": "Rare",
+      "inheritance": "recessive",
+      "mutationRate": 0.00001,
+      "description": "A rare heritable locus associated with the True Immortal trait. Does not grant immortality by itself.",
+      "effects": {
+        "traitUnlock": "trait_500",
+        "expression": "rare",
+        "heritability": 0.1
+      }
+    }
+  ]
+}
